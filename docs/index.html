@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.4.528">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>LatinR 2023</title>
+<title>LatinR 2024</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -142,33 +142,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./blog/es/2023-04-24-presentacion-trabajos-2023.html">
  <span class="dropdown-text">Llamado a presentación de trabajos</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="https://www.eventbrite.cl/e/latinr-2023-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-637517701607">
- <span class="dropdown-text">Inscripción</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./blog/es/2023-06-08-inscripcion.html">
- <span class="dropdown-text">Costo de inscripción</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-latinr-2023" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">LatinR 2023</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-latinr-2023">    
-        <li>
-    <a class="dropdown-item" href="./cronograma/lugar/index.html">
- <span class="dropdown-text">Lugar</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./cronograma/recursos-turisticos/index.html">
- <span class="dropdown-text">Recursos turísticos</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./blog/es/2023-08-18-becas-2023.html">
- <span class="dropdown-text">Becas de asistencia</span></a>
-  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
@@ -177,28 +150,8 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-programa">    
         <li>
-    <a class="dropdown-item" href="./cronograma/programa/preliminar.html">
- <span class="dropdown-text">Programa resumido</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./cronograma/programa/index.html">
- <span class="dropdown-text">Calendario</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="./cronograma/conferencistas/index.html">
  <span class="dropdown-text">Conferencistas</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./cronograma/tutoriales/index.html">
- <span class="dropdown-text">Tutoriales</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./cronograma/programa/presentaciones.html">
- <span class="dropdown-text">Presentaciones</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./cronograma/programa/posters.html">
- <span class="dropdown-text">Posters</span></a>
   </li>  
     </ul>
   </li>
@@ -242,15 +195,15 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="grid">
 <div id="banner" class="g-col-12">
-<section id="latinr-2023" class="level1">
-<h1>LatinR 2023</h1>
+<section id="latinr-2024" class="level1">
+<h1>LatinR 2024</h1>
 <section id="conferencia-latinoamericana-sobre-uso-de-r-en-investigación-desarrollo" class="level2">
 <h2 data-anchor-id="conferencia-latinoamericana-sobre-uso-de-r-en-investigación-desarrollo">Conferencia Latinoamericana sobre Uso de R en Investigación + Desarrollo</h2>
 </section>
-<section id="al-20-de-octubre-de-2023---montevideo-uruguay" class="level2">
-<h2 data-anchor-id="al-20-de-octubre-de-2023---montevideo-uruguay">18 al 20 de octubre de 2023 - Montevideo, Uruguay</h2>
+<section id="al-22-de-noviembre-de-2024---online" class="level2">
+<h2 data-anchor-id="al-22-de-noviembre-de-2024---online">18 al 22 de noviembre de 2024 - Online</h2>
 <center>
-<i class="fa-solid fa-location-dot" aria-label="location-dot"></i> Facultad de Ciencias Económicas y de Administración, UDELAR
+<i class="fa-solid fa-location-dot" aria-label="location-dot"></i> Zoom
 </center>
 <br>
 </section>
@@ -401,24 +354,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -453,11 +388,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -505,12 +436,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
+      return note.innerHTML;
     }
   }
   for (var i=0; i<xrefs.length; i++) {

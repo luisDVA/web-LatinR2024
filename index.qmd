@@ -1,5 +1,5 @@
 ---
-pagetitle: "LatinR 2023"
+pagetitle: "LatinR 2024"
 toc: false
 page-layout: custom
 # listing:
@@ -32,13 +32,13 @@ page-layout: custom
 ::: {.content-visible when-profile="es"}
 ::: grid
 ::: {#banner .g-col-12}
-# LatinR 2023
+# LatinR 2024
 
 ## Conferencia Latinoamericana sobre Uso de R en Investigación + Desarrollo
 
-## 18 al 20 de octubre de 2023 - Montevideo, Uruguay 
+## 18 al 22 de noviembre de 2024 - Online 
 
-<center> {{< fa location-dot >}} Facultad de Ciencias Económicas y de Administración, UDELAR</center>
+<center> {{< fa location-dot >}} Zoom </center>
 <br>
 </section>
 
@@ -72,13 +72,13 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 ::: {.content-visible when-profile="en"}
 ::: grid
 ::: {#banner .g-col-12}
-# LatinR 2023
+# LatinR 2024
 
 ## Latinamerican Conference About the Use of R in R&D
 
-## October 18-20, 2023 - Montevideo, Uruguay 
+## November 18-22, 2024 - Online 
 
-<center> {{< fa location-dot >}} Facultad de Ciencias Económicas y de Administración, UDELAR</center>
+<center> {{< fa location-dot >}} Zoom </center>
 <br>
 </section>
 
@@ -105,13 +105,13 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 ::: {.content-visible when-profile="pt"}
 ::: grid
 ::: {#banner .g-col-12}
-# LatinR 2023
+# LatinR 2024
 
 ## Conferência Latino-Americana sobre o Uso de R em Pesquisa e Desenvolvimento
 
-## 18 a 20 de outubro de 2023 - Montevideo, Uruguay
+## 18 a 22 de novembro de 2024 - Online
 
-<center> {{< fa location-dot >}} Facultad de Ciencias Económicas y de Administración, UDELAR</center>
+<center> {{< fa location-dot >}} Zoom </center>
 <br>
 </section>
 

@@ -1,27 +1,27 @@
-    - name: R Consortium
-      href: https://r-consortium.org
-      thumbnail: https://www.r-consortium.org/wp-content/uploads/sites/13/2016/09/RConsortium_Horizontal_Pantone.png
-    - name: Instituto de Estadística
-      href: https://iesta.fcea.udelar.edu.uy/
-      thumbnail: ../../img/partners/iesta.jpg 
-    - name: Facultad de Ciencias Económicas y de Administración
-      href: http://eva.fcea.edu.uy/
-      thumbnail: ../../img/partners/FCEA.png
-    - name: Universidad de la República Uruguay
-      href: https://udelar.edu.uy/portal/
-      thumbnail: ../../img/partners/udelar.png
-    - name: Appsilon
-      href: https://appsilon.com/
-      thumbnail: ../../img/partners/Appsilon.svg     
-    - name: Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático 
-      href: https://cicada.uy/
-      thumbnail: ../../img/partners/cicada.png
+    # - name: R Consortium
+    #   href: https://r-consortium.org
+    #   thumbnail: https://www.r-consortium.org/wp-content/uploads/sites/13/2016/09/RConsortium_Horizontal_Pantone.png
+    # - name: Instituto de Estadística
+    #   href: https://iesta.fcea.udelar.edu.uy/
+    #   thumbnail: ../../img/partners/iesta.jpg 
+    # - name: Facultad de Ciencias Económicas y de Administración
+    #   href: http://eva.fcea.edu.uy/
+    #   thumbnail: ../../img/partners/FCEA.png
+    # - name: Universidad de la República Uruguay
+    #   href: https://udelar.edu.uy/portal/
+    #   thumbnail: ../../img/partners/udelar.png
+    # - name: Appsilon
+    #   href: https://appsilon.com/
+    #   thumbnail: ../../img/partners/Appsilon.svg     
+    # - name: Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático 
+    #   href: https://cicada.uy/
+    #   thumbnail: ../../img/partners/cicada.png
     - name: rOpenSci (Community partner)
       href: https://ropensci.org/
       thumbnail: ../../img/partners/ropensci.png
-    - name: Agencia Nacional de Investigación e Innovación
-      href: https://www.anii.org.uy/
-      thumbnail: ../../img/partners/proyecto-anii.jpg
-    - name: Fundación Ceibal
-      href: https://fundacionceibal.edu.uy
-      thumbnail: ../../img/partners/fundacion-ceibal.jpg
+    # - name: Agencia Nacional de Investigación e Innovación
+    #   href: https://www.anii.org.uy/
+    #   thumbnail: ../../img/partners/proyecto-anii.jpg
+    # - name: Fundación Ceibal
+    #   href: https://fundacionceibal.edu.uy
+    #   thumbnail: ../../img/partners/fundacion-ceibal.jpg

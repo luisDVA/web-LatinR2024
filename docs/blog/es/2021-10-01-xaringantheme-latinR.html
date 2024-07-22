@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.4.528">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -270,7 +270,7 @@ output:
 <section id="diapositivas-del-theme-latinr" class="level4">
 <h4 class="anchored" data-anchor-id="diapositivas-del-theme-latinr">Diapositivas del theme latinR</h4>
 <p>El theme latinR incluye una diapositiva de título:</p>
-<div class="quarto-figure quarto-figure-center">
+<div class="img-fluid quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../img/posts/title_slide.png" class="img-fluid figure-img"></p>
 <figcaption>Diapositiva de título, incluida en el theme latinR. Se muestra una diapositiva con el color de fondo gris usado en el logo de LatinR. Se muestra el logo de LatinR en la esquina superior izquierda, que incluye una representación del mapa de latinoamérica y la frase ‘LATINR Conferencia Latinoamericana sobre el uso de R en Investigación y Desarrollo’. En el cuerpo de la diapositiva se muestra el texto centrado en color negro ‘Título de tu presentación usando xaringan Tu nombre LatinR 2021 -12 de noviembre de 2021’</figcaption>
@@ -278,7 +278,7 @@ output:
 </div>
 <p><br></p>
 <p>Diapositivas de contenido:</p>
-<div class="quarto-figure quarto-figure-center">
+<div class="img-fluid quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../img/posts/body_slide.png" class="img-fluid figure-img"></p>
 <figcaption>Diapositiva de contenido, incluida en el theme latinR. Se muestra una diapositiva con color de fondo blanco y tres niveles de encabezado en color morado. El texto de la diapositiva es ‘Header 1: Agrega algo de texto aquí. Header 2: Agrega algo de texto aquí. Header 3: Chunk de código en R con el texto Agrega tu código seq(1:5)’</figcaption>
@@ -286,7 +286,7 @@ output:
 </div>
 <p><br></p>
 <p>Y una diapositiva para separar por capítulos la presentación:</p>
-<div class="quarto-figure quarto-figure-center">
+<div class="img-fluid quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../img/posts/chapter_slide.png" class="img-fluid figure-img"></p>
 <figcaption>Diapositiva de capítulo, incluida en el theme latinR. Se muestra una diapositiva con el color de fondo morado usado en el logo de LatinR y letras en color blanco con la frase ‘Capítulo nuevo’</figcaption>
@@ -294,7 +294,7 @@ output:
 </div>
 <p><br></p>
 <p>Si deseas incluir gráficos generados con ggplot2, te sugerimos utilizar escalas de color amigables con las personas con dificultades visuales; por ejemplo, la escala viridis.</p>
-<div class="quarto-figure quarto-figure-center">
+<div class="img-fluid quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../img/posts/viridis.png" class="img-fluid figure-img"></p>
 <figcaption>Diapositiva de ejemplo mostrando el uso de la escala viridis para generar gráficas con colores amigables. Se muestran gráficas de densidad con los datos de la masa corporal de pinguinos de las especies Adelie, Chinstrap y Gentoo del conjunto de datos pinguinos del paquete en español datos separados por color de acuerdo con la especie, con ayuda de la escala viridis. En la columna izquierda se están utilizando los colores morado, esmeralda y amarillo. En la columna derecha se muestra la simulación de cómo se vería la gráfica de la izquierda considerando cuatro deficiencias visuales: Deutanomalía,Protanomalía, Tritanomalía y Desaturado</figcaption>
@@ -390,24 +390,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -442,11 +424,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -494,12 +472,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
+      return note.innerHTML;
     }
   }
   for (var i=0; i<xrefs.length; i++) {
