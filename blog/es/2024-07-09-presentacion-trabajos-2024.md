@@ -117,7 +117,7 @@ En breve compartiremos los detalles para quienes quieran proponer talleres onlin
 
 <br>
 
-##### Fechas importantes
+#### Fechas importantes
 
 **Inicio recepción de trabajos**: 15 de Julio, 2024
 
@@ -129,7 +129,7 @@ En breve compartiremos los detalles para quienes quieran proponer talleres onlin
 
 **Fecha de la conferencia**: la semana del 18 al 22 de Noviembre, 2024
 
-###### Presentaciones y pósters versiones anteriores
+##### Presentaciones y pósters versiones anteriores
 
 En nuestro [canal de YouTube](http://youtube.com/latinr) es posible
 revisar los videos de las ediciones 2020 a 2022 de LatinR. En nuestra
