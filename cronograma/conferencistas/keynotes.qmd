@@ -1,5 +1,5 @@
 ---
-title: "Keynote Speakers - LatinR2023"
+title: "Keynote Speakers"
 knitr:
   opts_chunk: 
     echo: false
