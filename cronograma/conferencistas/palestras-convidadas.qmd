@@ -1,5 +1,5 @@
 ---
-title: "Palestras convidadas - LatinR2023"
+title: "Palestras convidadas"
 knitr:
   opts_chunk: 
     echo: false
