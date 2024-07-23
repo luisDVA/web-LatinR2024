@@ -2,7 +2,7 @@
 layout: post
 title:  "Chamada de apresentação de trabalhos"
 isStaticPost: false
-lang: es
+lang: pt
 date: 2024-07-09
 ref: call-for-papers-2024
 editor_options: 
