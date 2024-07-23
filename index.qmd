@@ -36,7 +36,7 @@ page-layout: custom
 
 ## Conferencia Latinoamericana sobre Uso de R en Investigación + Desarrollo
 
-## 18 al 22 de noviembre de 2023 - Online
+## 18 al 22 de noviembre de 2024 - Online
 
 <center> {{< fa location-dot >}} Zoom </center>
 <br>
@@ -117,7 +117,7 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 
 ## Conferência Latino-Americana sobre o Uso de R em Pesquisa e Desenvolvimento
 
-## 18 a 22 de novembro de 2023 - Online
+## 18 a 22 de novembro de 2024 - Online
 
 <center> {{< fa location-dot >}} Zoom</center>
 <br>
