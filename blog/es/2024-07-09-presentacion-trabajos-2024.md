@@ -94,7 +94,7 @@ En breve compartiremos los detalles para quienes quieran proponer talleres onlin
     simple. La extensión no puede superar las dos páginas.
 -   Existe un paquete desarrollado por Elio Campitelli que permite
     elaborar el resumen en un archivo RMarkdown. Puedes revisar los
-    detalles en [en este post](https://latin-r.com/blog/paquete-latinr).
+    detalles en [en este post](https://latin-r.com/blog/es/2020-03-03-paquete-latinr.html).
     En ediciones anteriores de la conferencia era posible hacer el envío
     directamente desde R. En esta ocasión eso no es posible ya que la
     plataforma no es la misma. Si prefieres utilizar un procesador de
