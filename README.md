@@ -4,8 +4,8 @@ Made with Quarto and R, by the Latin-R organizing team.
 
 
 
-- Español: <https://latin-r.com/>
+- Español: <https://latinr.org/>
 
-- Português: <https://latin-r.com/pt/>
+- Português: <https://latinr.org/pt/>
 
-- English: <https://latin-r.com/en/>
+- English: <https://latinr.org/en/>
