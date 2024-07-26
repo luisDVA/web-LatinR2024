@@ -53,3 +53,17 @@ website:
           #   href: cronograma/programa/posters.qmd              
       - text: "Novedades"
         href: blog/es/index.html          
+      - text: "Ediciones anteriores"
+        menu:
+        - text: "2023"
+          href: https://2023.latinr.org/
+        - text: "2022"
+          href: https://2022.latinr.org/
+        - text: "2021"
+          href: https://2021.latinr.org/
+        - text: "2020"
+          href: https://2020.latinr.org/
+        - text: "2019"
+          href: https://2019.latinr.org/
+        - text: "2018"
+          href: https://2018.latinr.org/
