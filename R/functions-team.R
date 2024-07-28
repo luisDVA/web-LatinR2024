@@ -10,7 +10,7 @@ generate_card <- function(person, class_group = "card-header-team") {
 
 get_info_committe <- function(){
   # Run code below when we need to update
-  # url_sheets_comite <- "https://docs.google.com/spreadsheets/d/1XrOVbMh1twUpBCih7JgsSa2lg_1dhU-hNL-4IjhhcCA/"
+  # url_sheets_comite <- "https://docs.google.com/spreadsheets/d/1gKo5WEZoxpqoE4NVrHUjcuZfs2y9gMHG-bt318NqREE/edit?gid=171919892#gid=171919892"
   # 
   # sheets_comite_raw <-
   #   googlesheets4::read_sheet(url_sheets_comite, "comite_cientifico")
@@ -38,7 +38,7 @@ get_info_committe <- function(){
 
 get_info_team <- function(){
   # Run code below when we need to update
-  # url_sheets_team <- "https://docs.google.com/spreadsheets/d/1rIBZHB4c9SGrFUz-hO2rJxWbnIvJRPKnR8cUNrzbSk4/edit#gid=928900239"
+  # url_sheets_team <- "https://docs.google.com/spreadsheets/d/1gjdblLof74LgIOzxbm3WH8l7wI5IoJftdLF0os9B5EI/edit?gid=773649310#gid=773649310"
 
   # sheets_team_raw <-
   #   googlesheets4::read_sheet(url_sheets_team)
