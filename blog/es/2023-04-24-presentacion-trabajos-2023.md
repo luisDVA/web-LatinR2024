@@ -133,7 +133,7 @@ público asistente. <br><br>
 
 ###### Presentaciones y pósters versiones anteriores
 
-En nuestro [canal de YouTube](http://youtube.com/latinr) es posible
+En nuestro [canal de YouTube](https://youtube.com/latinr) es posible
 revisar los videos de las ediciones 2020 a 2022 de LatinR. En nuestra
 cuenta en GitHub es posible acceder a los resúmenes y materiales de
 presentaciones y pósters de los años

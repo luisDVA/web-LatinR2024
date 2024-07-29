@@ -15,7 +15,7 @@ Había dos modalidades de participación a la hackatón: (1) como autor: enviand
 
 En un ambiente distendido, nos encontramos personas de Argentina, Chile, Brasil, Ecuador, Uruguay, Perú, México, Nicaragua, Costa Rica, Guatemala, España y Reino Unido para pasar una tarde compartiendo información sobre reproducibilidad y trabajando en los artículos.
 
-Durante la hackatón contamos con 4 charlas (¡en español!) que quedaron grabadas en una lista de reproducción especial del canal de YouTube de LatinR y puedes acceder a las mismas [aquí](http://bit.ly/reprohack_playlist).
+Durante la hackatón contamos con 4 charlas (¡en español!) que quedaron grabadas en una lista de reproducción especial del canal de YouTube de LatinR y puedes acceder a las mismas [aquí](https://bit.ly/reprohack_playlist).
 
 ![Charlas](/img/posts/reprohack_latinr.png)
 

@@ -71,7 +71,7 @@ Propostas deverão incluir: \* Uma descrição geral da mesa redonda com no máx
 
 -   Os idiomas oficiais da conferência serão espanhol, português e inglês. Os resumos devem ser escritos no mesmo idioma da apresentação oral ou pôster.
 -   Os envios deverão estar de acordo com o formato oficial da conferência. Você pode utilizar o Word ou [LaTeX template](https://github.com/LatinR/latinr/raw/master/inst/rmarkdown/templates/latinr_article/latinr_article.zip), ou usar o [latinr](https://github.com/LatinR/latinr) para assegurar o correto envio.
--   O processo de envio será realizado através da plataforma EasyChair [neste link](http://bit.ly/latinr2020-easychair) de 2 de março até 20 de abril.
+-   O processo de envio será realizado através da plataforma EasyChair [neste link](https://bit.ly/latinr2020-easychair) de 2 de março até 20 de abril.
 -   Os envios deverão ser no formato em PDF sem o nome do autor ou informação de filiação através da plataforma EasyChair neste link.
 -   Em casos de mesas redondas, a apresentação de todos os resumos deverão ser incluídos em um mesmo arquivo.
 -   Cada envio será avaliado criteriosamente pelo comitê científico (será anunciado) em relação à sua originalidade, contribuição, qualidade técnica e clareza.

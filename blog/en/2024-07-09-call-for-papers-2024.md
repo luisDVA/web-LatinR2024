@@ -77,7 +77,7 @@ Details for those who wish to propose online workshops for this edition of Latin
 
 -   All works must be submitted in PDF format, **without authors or affiliation**, in letter size, written in font size 11 with single spacing. The length must not exceed two pages.
 
-- There is a package developed by Elio Campitelli that allows the abstract to be prepared in an RMarkdown file. You can check the details in [this post](http://latinr.org/en/blog/en/2020-03-03-latinr-package.html). In previous editions of the conference, it was possible to submit directly from R. This time it is not possible as the platform is different. If you prefer to use a word processor, we ask that you use [this template](https://docs.google.com/document/d/1KrPbi2AR5Rcq5fKMkC_yK_9gpez4Fmtz/edit?usp=sharing&ouid=107644076848762167027&rtpof=true&sd=true) for submission.
+- There is a package developed by Elio Campitelli that allows the abstract to be prepared in an RMarkdown file. You can check the details in [this post](https://latinr.org/en/blog/en/2020-03-03-latinr-package.html). In previous editions of the conference, it was possible to submit directly from R. This time it is not possible as the platform is different. If you prefer to use a word processor, we ask that you use [this template](https://docs.google.com/document/d/1KrPbi2AR5Rcq5fKMkC_yK_9gpez4Fmtz/edit?usp=sharing&ouid=107644076848762167027&rtpof=true&sd=true) for submission.
 
 - Works must be submitted through the [Open
     Review](https://openreview.net/group?id=LATIN-R.com/2024/Conference) platform. Registration is required to make the submission. It is important to consider that registration is not automatic; it can take up to 24 hours for the account to be activated if using an institutional account and longer if using a personal account. **It is suggested not to leave account creation to the last minute.**
@@ -106,7 +106,7 @@ Details for those who wish to propose online workshops for this edition of Latin
 
 ##### Presentations and posters from previous editions
 
-On our [YouTube channel](http://youtube.com/latinr), you can watch videos from the 2020 to 2022 editions of LatinR. On our GitHub account, you can access summaries and materials from presentations and posters from the years 
+On our [YouTube channel](https://youtube.com/latinr), you can watch videos from the 2020 to 2022 editions of LatinR. On our GitHub account, you can access summaries and materials from presentations and posters from the years 
 [2018](https://github.com/LatinR/presentaciones-LatinR2018),
 [2019](https://github.com/LatinR/presentaciones-LatinR2019),
 [2020](https://github.com/LatinR/presentaciones-LatinR2020),

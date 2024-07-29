@@ -11,7 +11,7 @@ date: 2020-02-28
 
 -   18/4/2020 - [SatuRday Santiago. Santiago de Chile, Chile](https://mobile.twitter.com/satRdaySantiago/status/1230486915830382592)
 
--   19/5/2020 - [V International Seminar on Statistics with R. Rio de Janeiro, Brasil](http://ser.uff.br/)
+-   19/5/2020 - [V International Seminar on Statistics with R. Rio de Janeiro, Brasil](https://ser.uff.br/)
 
 #### 2º semestre
 

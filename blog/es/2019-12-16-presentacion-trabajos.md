@@ -85,7 +85,7 @@ El envío de propuestas para mesas temáticas debe incluir:
 
 -   Todos los trabajos deberán respetar el formato oficial de la conferencia. Se pueden utilizar las plantillas de Word, [LaTeX](https://github.com/LatinR/latinr/raw/master/inst/rmarkdown/templates/latinr_article/latinr_article.zip) o el paquete [latinr](https://github.com/LatinR/latinr) para aplicar el formato correcto.
 
--   Los envíos deben hacerse a través de la plataforma EasyChair siguiendo [este link](http://bit.ly/latinr2020-easychair) a partir del día 2 de marzo y hasta el martes 30 de abril.
+-   Los envíos deben hacerse a través de la plataforma EasyChair siguiendo [este link](https://bit.ly/latinr2020-easychair) a partir del día 2 de marzo y hasta el martes 30 de abril.
 
 -   Todos los trabajos deberán enviarse en formato PDF, sin autores ni filiación, a través de la plataforma EasyChair.
 

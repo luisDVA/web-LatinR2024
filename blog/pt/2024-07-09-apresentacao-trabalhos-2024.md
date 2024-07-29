@@ -108,7 +108,7 @@ Em breve compartilharemos os detalhes para quem quiser propor workshops online p
 
 #### Apresentações e pôsteres de versões anteriores
 
-Em nosso [canal do YouTube](http://youtube.com/latinr), é possível assistir aos vídeos das edições de 2020 a 2022 da LatinR. Em nossa conta no GitHub, é possível acessar os resumos e materiais das apresentações e pôsteres dos anos de 
+Em nosso [canal do YouTube](https://youtube.com/latinr), é possível assistir aos vídeos das edições de 2020 a 2022 da LatinR. Em nossa conta no GitHub, é possível acessar os resumos e materiais das apresentações e pôsteres dos anos de 
 [2018](https://github.com/LatinR/presentaciones-LatinR2018),
 [2019](https://github.com/LatinR/presentaciones-LatinR2019),
 [2020](https://github.com/LatinR/presentaciones-LatinR2020),

@@ -74,7 +74,7 @@ Submissions must include:
 
 -   The official languages of the conference are Spanish, Portuguese and English. Abstracts must be written in the same language of the oral presentation or poster.
 
--   Submissions must be sent in PDF format without author name or institution through the EasyChair platform following [this link](http://bit.ly/latinr2020-easychair) from March 2nd to April 30th.
+-   Submissions must be sent in PDF format without author name or institution through the EasyChair platform following [this link](https://bit.ly/latinr2020-easychair) from March 2nd to April 30th.
 
 -   Submissions must respect the oficla conference format. You can use the Word or [LaTeX template](https://github.com/LatinR/latinr/raw/master/inst/rmarkdown/templates/latinr_article/latinr_article.zip), or use the [latinr](https://github.com/LatinR/latinr) to ensure a correct submission.
 

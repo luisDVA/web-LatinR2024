@@ -1,7 +1,7 @@
 generar_info_keynotes <- function(){
 #   tibble::tibble(
 #     name = "Dra. Dianne Cook",
-#     href = "http://www.dicook.org",
+#     href = "https://www.dicook.org",
 #     img = "img/posts/dianne.jpg",
 #     info_es = "Dianne Cook es profesora de Business Analytics en Monash University. Sus principales temas de interés son la estadística computacional y la visualización estadística, particularmente la visualización de datos de alta dimensionalidad. Es miembro del R Foundation y editora del R Journal (http://www.dicook.org).",
 #     info_pt = "Dianne Cook é professora de Business Analytics na Universidade de Monash, cujos interesses de pesquisa incluem estatística computacional, visualização estatística, problemas em alta dimensão, entre outros. Ela é membro da Fundação R e atua como editora do R Journal (http://www.dicook.org).",

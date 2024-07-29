@@ -35,7 +35,7 @@ The first chunk performs some basic checks on the metadata each time the file is
 
 ##### Submitting an article with latinr
 
-So far, latinr allows you to create a correctly anonymised PDF following the conference template. You can send it manually through the [EasyChair](http://bit.ly/latinr2020-easychair) website or, if you like, using latinr.
+So far, latinr allows you to create a correctly anonymised PDF following the conference template. You can send it manually through the [EasyChair](https://bit.ly/latinr2020-easychair) website or, if you like, using latinr.
 
 In any case, you'll need to [sing up at EasyChair](https://easychair.org/account/signup). Then, you can optionally save your login details using `lating::latinr_password_set()`, which will promt you for your username and password. This is not mandatory but can make things easier. You might need to install que keyring package, in which case you'll get an informative error.
 
@@ -49,4 +49,4 @@ As we said before, this process is somewhat experimental an integration with web
 
 Each step of the process is completely optional. You can use latinr to create and submit your work, only to create it, only to submit it, or not at all. Do whatever makes you more comfortable!
 
-But if you do use latinr and find any error o have any suggestion, then don't hesitate to contact us! The best way is by [opening an issue on the GitHub repository](https://github.com/LatinR/latinr/issues) or sending us a message through our [Slack](http://bit.ly/latinr_slack), or you can email the package maintainer with `packageDescription("latinr")$Maintainer`. This is all new to us and we wish to leverage the community to improve it for the future!
+But if you do use latinr and find any error o have any suggestion, then don't hesitate to contact us! The best way is by [opening an issue on the GitHub repository](https://github.com/LatinR/latinr/issues) or sending us a message through our [Slack](https://bit.ly/latinr_slack), or you can email the package maintainer with `packageDescription("latinr")$Maintainer`. This is all new to us and we wish to leverage the community to improve it for the future!

@@ -20,7 +20,7 @@ date: 2020-02-29
 
 </center>
 
-The "[Birds of a Feather](http://community.rstudio.com/bof)" (BoF) sessions at the [2020 RStudio Conference](https://rstudio.com/conference/) were a place where R-users with similar backgrounds, interests, and aspirations could connect in a low-stress social setting. In other words - these sessions let "birds of a feather flock together." Building on the 2019 conference swag, we rolled out a bunch of new BoF buttons for rstudio::conf 2020.
+The "[Birds of a Feather](https://community.rstudio.com/bof)" (BoF) sessions at the [2020 RStudio Conference](https://rstudio.com/conference/) were a place where R-users with similar backgrounds, interests, and aspirations could connect in a low-stress social setting. In other words - these sessions let "birds of a feather flock together." Building on the 2019 conference swag, we rolled out a bunch of new BoF buttons for rstudio::conf 2020.
 
 Here we'll share the process for how some of the designs were created, including several that truly involved a flock of contributors (names for groups of birds are from [Bird Spot](https://www.birdspot.co.uk/articles/collective-nouns-for-birds)).
 

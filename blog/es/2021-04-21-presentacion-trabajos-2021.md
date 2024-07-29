@@ -90,4 +90,4 @@ Para asegurar su inclusión en el programa, una vez aceptada la propuesta, al me
 
 ###### Presentaciones y pósters versiones anteriores
 
-En [nuestro canal de YouTube](http://youtube.com/latinr) es posible revisar los videos de la edición 2020 de LatinR. En nuestra cuenta en GitHub es posible acceder a los resúmenes y materiales de presentaciones y pósters de los años [2018](https://github.com/LatinR/presentaciones-LatinR2018), [2019](https://github.com/LatinR/presentaciones-LatinR2019) y [2020](https://github.com/LatinR/presentaciones-LatinR2020).
+En [nuestro canal de YouTube](https://youtube.com/latinr) es posible revisar los videos de la edición 2020 de LatinR. En nuestra cuenta en GitHub es posible acceder a los resúmenes y materiales de presentaciones y pósters de los años [2018](https://github.com/LatinR/presentaciones-LatinR2018), [2019](https://github.com/LatinR/presentaciones-LatinR2019) y [2020](https://github.com/LatinR/presentaciones-LatinR2020).

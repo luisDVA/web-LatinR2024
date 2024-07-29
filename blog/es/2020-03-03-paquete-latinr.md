@@ -35,7 +35,7 @@ El primer chunk del documento chequea que la metadata esté más o menos correct
 
 ##### Cómo enviar el artículo
 
-Hasta acá latinr les permite crear un PDF con la plantilla de la conferencia y correctamente anonimizado para el envío. Pueden enviar ese PDF manualmente entrando a la página de [EasyChair](http://bit.ly/latinr2020-easychair), pero si quieren, pueden hacerlo usando latinr.
+Hasta acá latinr les permite crear un PDF con la plantilla de la conferencia y correctamente anonimizado para el envío. Pueden enviar ese PDF manualmente entrando a la página de [EasyChair](https://bit.ly/latinr2020-easychair), pero si quieren, pueden hacerlo usando latinr.
 
 En cualquier caso, van a tener que [hacerse una cuenta en EasyChair](https://easychair.org/account/signup). Luego, tienen la opción de guardar sus datos de cuenta `latinr::latinr_password_set()`, que les va a pedir su usuario y su contraseña. Esto no es obligatorio pero facilita las cosas. Es posible que necesiten instalar el paquete keyring, en cuyo caso, les saldrá un error informativo.
 
@@ -49,4 +49,4 @@ Como dijimos antes, este proceso es relativamente experimental y la integración
 
 Cada parte de todo este proceso es completamente opcional. Pueden usar latinr para crear y enviar su trabajo, sólo para crearlo, sólo para enviarlo o no usarlo en absoluto. ¡Hagan lo que les haga sentir más cómodes!
 
-Pero si usan latinr y encuentran algún problema o tienen alguna sugerencia, ¡no duden en contactarnos! La mejor forma es [abriendo un issue en el repositorio en GitHub](https://github.com/LatinR/latinr/issues) o mandando un mensaje en nuestro [Slack](http://bit.ly/latinr_slack), o pueden enviarle un mail al maintainer del paquete usando `packageDescription("latinr")$Maintainer`. Todo este proceso es nuevo para nosotros también y ojalá que con la comunidad podamos mejorarlo aún más!
+Pero si usan latinr y encuentran algún problema o tienen alguna sugerencia, ¡no duden en contactarnos! La mejor forma es [abriendo un issue en el repositorio en GitHub](https://github.com/LatinR/latinr/issues) o mandando un mensaje en nuestro [Slack](https://bit.ly/latinr_slack), o pueden enviarle un mail al maintainer del paquete usando `packageDescription("latinr")$Maintainer`. Todo este proceso es nuevo para nosotros también y ojalá que con la comunidad podamos mejorarlo aún más!

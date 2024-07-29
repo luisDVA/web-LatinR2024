@@ -15,7 +15,7 @@ There were two ways of participation in the hackathon: (1) As an author: sending
 
 In a relaxed atmosphere, we met people from Argentina, Chile, Brazil, Ecuador, Uruguay, Peru, Mexico, Nicaragua, Costa Rica, Guatemala, Spain and the United Kingdom to spend an afternoon sharing information on reproducibility and working on the articles.
 
-During the hackathon we had 4 talks (in Spanish!) that were recorded on a special playlist on the LatinR YouTube channel and you can access them [here](http://bit.ly/reprohack_playlist).
+During the hackathon we had 4 talks (in Spanish!) that were recorded on a special playlist on the LatinR YouTube channel and you can access them [here](https://bit.ly/reprohack_playlist).
 
 ![Talks](/img/posts/reprohack_latinr.png)
 

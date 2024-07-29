@@ -74,7 +74,7 @@ around data.table.
 **Package Authors**: Matt Dowle, Arun Srinivasan, and many other
 contributors, including myself.
 
-**Link**: <http://r-datatable.com>
+**Link**: <https://r-datatable.com>
 
 
 ## Creating data plots for effective decision-making using statistical inference with R
