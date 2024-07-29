@@ -20,7 +20,7 @@ website:
     right: 
       - icon: envelope
         aria-label: "Email"
-        href: mailto:latinr.conf@gmail.com   
+        href: mailto:info@latinr.org 
       - icon: github
         href: https://github.com/latinr
       - icon: twitter 

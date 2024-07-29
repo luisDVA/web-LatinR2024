@@ -23,4 +23,4 @@ date: 2020-02-28
 
 -   SatRday Concepcion. Concepción, Chile.
 
-If you know of any event that is not on the list, please send us an email at [latinr.conf\@gmail.com](mailto:latinr.conf@gmail.com).
+If you know of any event that is not on the list, please send us an email at [info@latinr.org](mailto:info@latinr.org).
