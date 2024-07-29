@@ -80,7 +80,7 @@ El envío de propuestas para mesas temáticas debe incluir:
 -   Los idiomas oficiales de la conferencia son español, portugués e inglés. El resumen debe escribirse en el idioma en que se realizará la presentación.
 -   Todos los trabajos deberán enviarse en formato PDF, sin autores ni filiación, a través de la plataforma EasyChair. Existe un paquete desarrollado por Elio Campitelli que permite hacer los envíos directamente desde R y en el formato de archivo para la conferencia. Puedes revisar los detalles en [este anuncio](https://latinr.org/blog/es/2020-03-03-paquete-latinr.html). Si no utilizas el paquete para hacer el envío, debes utilizar el formato oficial disponible en las siguientes [plantillas](https://github.com/LatinR/latinr/raw/master/inst/rmarkdown/templates/latinr_article/latinr_article.zip).
 -   Los resúmenes deben elaborarse en tamaño carta en fuente tamaño 11 a espacio simple.
--   Los envíos deben hacerse a través de la plataforma [EasyChair](https://https//easychair.org/conferences/?conf=latinr2021) a partir del día 30 de abril y hasta el 20 de junio.
+-   Los envíos deben hacerse a través de la plataforma [EasyChair](https//easychair.org/conferences/?conf=latinr2021) a partir del día 30 de abril y hasta el 20 de junio.
 -   En el caso de las mesas temáticas, todos los resúmenes deben incluirse en un mismo archivo.
 -   Todos los trabajos serán revisados cuidadosamente por los miembros del Comité Científico (a anunciar en el próximo comunicado), teniendo en cuenta su originalidad, aporte, calidad técnica y claridad.
 
