@@ -241,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="cómo-enviar-el-artículo" class="level5">
 <h5 class="anchored" data-anchor-id="cómo-enviar-el-artículo">Cómo enviar el artículo</h5>
-<p>Hasta acá latinr les permite crear un PDF con la plantilla de la conferencia y correctamente anonimizado para el envío. Pueden enviar ese PDF manualmente entrando a la página de <a href="http://bit.ly/latinr2020-easychair">EasyChair</a>, pero si quieren, pueden hacerlo usando latinr.</p>
+<p>Hasta acá latinr les permite crear un PDF con la plantilla de la conferencia y correctamente anonimizado para el envío. Pueden enviar ese PDF manualmente entrando a la página de <a href="https://bit.ly/latinr2020-easychair">EasyChair</a>, pero si quieren, pueden hacerlo usando latinr.</p>
 <p>En cualquier caso, van a tener que <a href="https://easychair.org/account/signup">hacerse una cuenta en EasyChair</a>. Luego, tienen la opción de guardar sus datos de cuenta <code>latinr::latinr_password_set()</code>, que les va a pedir su usuario y su contraseña. Esto no es obligatorio pero facilita las cosas. Es posible que necesiten instalar el paquete keyring, en cuyo caso, les saldrá un error informativo.</p>
 <p>Finalmente el envío se realiza con <code>latinr::latinr_submit()</code>. Por default se fija si hay un único archivo con extensión .Rmd en su directorio de trabajo y, si así es, lo toma como el archivo a enviar. Luego, les muestra los detalles del envío para asegurarse de que esté todo bien, luego renderiza y muestra el archivo PDF para también asegurarse de que haya renderizado correctamente y finalmente hace el envío.</p>
 <p>Opcionalmente, si tienen el PDF renderizado de otro lado, pueden usar un .Rmd con el encabezado únicamente para los detalles (como el título, los nombres de les autores, etc…) y pasarle la ruta al archivo PDF que quieren enviar.</p>
@@ -250,7 +250,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="absolutamente-opcional" class="level5">
 <h5 class="anchored" data-anchor-id="absolutamente-opcional">Absolutamente opcional</h5>
 <p>Cada parte de todo este proceso es completamente opcional. Pueden usar latinr para crear y enviar su trabajo, sólo para crearlo, sólo para enviarlo o no usarlo en absoluto. ¡Hagan lo que les haga sentir más cómodes!</p>
-<p>Pero si usan latinr y encuentran algún problema o tienen alguna sugerencia, ¡no duden en contactarnos! La mejor forma es <a href="https://github.com/LatinR/latinr/issues">abriendo un issue en el repositorio en GitHub</a> o mandando un mensaje en nuestro <a href="http://bit.ly/latinr_slack">Slack</a>, o pueden enviarle un mail al maintainer del paquete usando <code>packageDescription("latinr")$Maintainer</code>. Todo este proceso es nuevo para nosotros también y ojalá que con la comunidad podamos mejorarlo aún más!</p>
+<p>Pero si usan latinr y encuentran algún problema o tienen alguna sugerencia, ¡no duden en contactarnos! La mejor forma es <a href="https://github.com/LatinR/latinr/issues">abriendo un issue en el repositorio en GitHub</a> o mandando un mensaje en nuestro <a href="https://bit.ly/latinr_slack">Slack</a>, o pueden enviarle un mail al maintainer del paquete usando <code>packageDescription("latinr")$Maintainer</code>. Todo este proceso es nuevo para nosotros también y ojalá que con la comunidad podamos mejorarlo aún más!</p>
 
 
 </section>
