@@ -15,7 +15,7 @@ date: 2020-02-28
 
 #### 2º semester
 
--   7/10/2020 - [LatinR - Conferencia Latinoamericana sobre Uso de R en Investigación + Desarrollo- Montevideo, Uruguay](https://latin-r.com/)
+-   7/10/2020 - [LatinR - Conferencia Latinoamericana sobre Uso de R en Investigación + Desarrollo- Montevideo, Uruguay](https://latinr.org/)
 
 #### To be determined
 

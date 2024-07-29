@@ -165,7 +165,7 @@ de julio de 2022
     filiación**, a través de la plataforma EasyChair. Existe un paquete
     desarrollado por Elio Campitelli que permite hacer los envíos
     directamente desde R. Puedes revisar los detalles [en este
-    post](https://latin-r.com/blog/paquete-latinr). Si prefieres
+    post](https://latinr.org/blog/es/2020-03-03-paquete-latinr.html). Si prefieres
     utilizar un procesador de textos, te pedimos que por favor uses
     [esta
     plantilla](https://docs.google.com/document/d/1KrPbi2AR5Rcq5fKMkC_yK_9gpez4Fmtz/edit?usp=sharing&ouid=107644076848762167027&rtpof=true&sd=true)
