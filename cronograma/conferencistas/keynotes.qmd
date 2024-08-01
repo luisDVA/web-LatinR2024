@@ -28,9 +28,9 @@ In this sixth in-person edition, we will have the presence of four prominent spe
 ```{r}
 #| results: asis
 source(here::here("R/generar-info-keynotes.R"))
-info_keynotes <- generar_info_keynotes()
-
-generar_cards_keynotes(info_keynotes = info_keynotes, col_information = "info_en")
+# info_keynotes <- generar_info_keynotes()
+# 
+# generar_cards_keynotes(info_keynotes = info_keynotes, col_information = "info_en")
 
 ```
 

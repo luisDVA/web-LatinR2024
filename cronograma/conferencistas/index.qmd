@@ -27,10 +27,10 @@ En esta sexta edición de la conferencia contaremos con la presencia de cuatro o
 
 ```{r}
 #| results: asis
-source(here::here("R/generar-info-keynotes.R"))
-info_keynotes <- generar_info_keynotes()
-
-generar_cards_keynotes(info_keynotes = info_keynotes, col_information = "info_es")
+# source(here::here("R/generar-info-keynotes.R"))
+# info_keynotes <- generar_info_keynotes()
+# 
+# generar_cards_keynotes(info_keynotes = info_keynotes, col_information = "info_es")
 
 ```
 
