@@ -63,6 +63,7 @@ listing:
 :::
 :::
 
+
 <!-- ## Conferencistas -->
 
 ```{r}
@@ -76,15 +77,17 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 
 ```
 
-## Novedades
+:::
+
+## Novedades (Español)
 
 ::: {#blog-es}
 :::
+<br>
 
 
-:::
 
-::: {.content-visible when-profile="en"}
+:::: {.content-visible when-profile="en"}
 ::: grid
 ::: {#banner .g-col-12}
 # LatinR 2024
@@ -109,6 +112,8 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 
 
 
+
+
 <!-- ## Keynotes -->
 
 ```{r}
@@ -122,18 +127,18 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 
 ```
 
-## News
+
+
+::::
+
+## News (English)
 
 ::: {#blog-en}
 :::
+<br>
 
 
-:::
-
-
-:::
-
-::: {.content-visible when-profile="pt"}
+:::: {.content-visible when-profile="pt"}
 ::: grid
 ::: {#banner .g-col-12}
 # LatinR 2024
@@ -156,6 +161,8 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 :::
 :::
 
+
+
 <!-- ## Palestrantes principais -->
 
 ```{r}
@@ -169,12 +176,13 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 
 ```
 
-## Novidades
+
+:::
+
+<br>
+
+## Novidades (Português)
 
 ::: {#blog-pt}
 :::
 
-
-:::
-
-:::
