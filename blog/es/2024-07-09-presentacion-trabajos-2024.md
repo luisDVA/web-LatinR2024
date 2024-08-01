@@ -1,13 +1,8 @@
 ---
-layout: post
 title:  "Llamado a Presentación de Trabajos"
-isStaticPost: false
-lang: es
+categories: "2024"
 date: 2024-07-09
 ref: call-for-papers-2024
-editor_options: 
-  markdown: 
-    wrap: 72
 ---
 
 <h3><center>¡LLAMADO A PRESENTACIÓN DE TRABAJOS ABIERTO!</center></h3>

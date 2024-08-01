@@ -1,13 +1,8 @@
 ---
-layout: post
 title:  "Chamada de apresentação de trabalhos"
-isStaticPost: false
-lang: pt
 date: 2024-07-09
 ref: call-for-papers-2024
-editor_options: 
-  markdown: 
-    wrap: 72
+categories: "2024"
 ---
 
 <h3><center>Chamada de apresentação de trabalhos aberta!</center></h3>

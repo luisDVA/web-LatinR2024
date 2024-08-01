@@ -1,13 +1,8 @@
 ---
-layout: post
 title:  "Call for papers"
-isStaticPost: false
-lang: es
 date: 2024-07-09
 ref: call-for-papers-2024
-editor_options: 
-  markdown: 
-    wrap: 72
+categories: "2024"
 ---
 
 <h3><center>¡CALL FOR PAPERS NOW OPEN!</center></h3>
