@@ -45,7 +45,7 @@ page-layout: custom
 
 <!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Programa</button></a></center> -->
 
-<center><a href='blog/es/2024-07-09-presentacion-trabajos-2024.html'><button type="button" class="btn btn-light btn-lg">Llamado a Presentación de Trabajos</button></a></center>
+<center> <a href='blog/es/2024-08-01-inscripcion.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Inscripción</button></a> <a href='blog/es/2024-07-09-presentacion-trabajos-2024.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-file-circle-plus"></i> Llamado a Presentación de Trabajos</button></a></center>
 
 <br>
 :::
@@ -88,8 +88,7 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 
 <!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Program</button></a></center> -->
 
-<center><a href='blog/en/2024-07-09-call-for-papers-2024.html'><button type="button" class="btn btn-light btn-lg">Call for papers</button></a></center>
-
+<center> <a href='blog/en/2024-08-01-register.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Register</button></a> <a href='blog/en/2024-07-09-call-for-papers-2024.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-file-circle-plus"></i> Call for papers</button></a></center>
 
 <br>
 :::
@@ -126,7 +125,7 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 
 <!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Programação</button></a></center> -->
 
-<center><a href='blog/pt/2024-07-09-apresentacao-trabalhos-2024.html'><button type="button" class="btn btn-light btn-lg">Submissão de trabalhos</button></a></center>
+<center> <a href='blog/pt/2024-08-01-inscricao.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Inscrição</button></a> <a href='blog/pt/2024-07-09-apresentacao-trabalhos-2024.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-file-circle-plus"></i> Submissão de trabalhos</button></a></center>
 
 
 <br>
