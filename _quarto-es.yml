@@ -25,10 +25,11 @@ website:
         menu: 
           - text: "Llamado a presentación de trabajos"
             href: blog/es/2024-07-09-presentacion-trabajos-2024.html
-      #     - text: "Inscripción"
-      #       href: https://www.eventbrite.cl/e/latinr-2023-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-637517701607
-      #     - text: "Costo de inscripción"
-      #       href: blog/es/2023-06-08-inscripcion.html  
+          - text: "Sobre la Inscripción"
+            href: blog/es/2024-08-01-inscripcion.html 
+          - text: "Inscripción"
+            href: https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl
+           
       # - text: LatinR 2024
       #   menu: 
       #     - text: "Lugar"
