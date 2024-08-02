@@ -1,9 +1,7 @@
 ---
-layout: post
 title:  "Inscripción"
-isStaticPost: false
-lang: es
 date: 2024-08-01
+categories: [2024]
 ---
 
 ### Inscripción
@@ -17,4 +15,4 @@ Este evento es **gratuito**, no hay costo de inscripción.
 
 <br>
 
-El registro se realiza a través de [Eventbrite](https://www.eventbrite.cl/o/latinr-31366085343).
+El registro se realiza a través de [Eventbrite](https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl).
