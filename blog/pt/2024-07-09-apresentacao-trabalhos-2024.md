@@ -107,5 +107,5 @@ Em nosso [canal do YouTube](https://youtube.com/latinr), é possível assistir a
 [2018](https://github.com/LatinR/presentaciones-LatinR2018),
 [2019](https://github.com/LatinR/presentaciones-LatinR2019),
 [2020](https://github.com/LatinR/presentaciones-LatinR2020),
-[2021](https://github.com/LatinR/presentaciones-LatinR2021) e
-[2022](https://github.com/LatinR/presentaciones-LatinR2022).
+[2021](https://github.com/LatinR/presentaciones-LatinR2021), 
+[2022](https://github.com/LatinR/presentaciones-LatinR2022) e [2023](https://github.com/LatinR/presentaciones-LatinR2023)
