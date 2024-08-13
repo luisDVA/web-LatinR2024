@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Juan Pablo Ruiz Nicolini">
+<meta name="description" content="Political Science Meets Coding: Crafting the polarverse with R and the LatinR Connection.">
 
-<title>News – LatinR 2024</title>
+<title>Divide and Conquer: From polar To the Polarverse – LatinR 2024</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,8 +66,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -55,85 +89,27 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts'] = new List('listing-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -141,8 +117,8 @@ window.Quarto = {
     <img src="../../img/logo.png" alt="Latin-R logo" class="navbar-logo">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -248,331 +224,146 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">Divide and Conquer: From polar To the Polarverse</h1>
+                  <div>
+        <div class="description">
+          Political Science Meets Coding: Crafting the polarverse with R and the LatinR Connection.
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      <div>
+      <div class="quarto-title-meta-heading">Autor</div>
+      <div class="quarto-title-meta-contents">
+               <p>Juan Pablo Ruiz Nicolini </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Data de Publicação</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">2 de agosto de 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">News</h1>
-</div>
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
+<blockquote class="blockquote">
+<p><em>“I’m just a political scientist, standing in front of the R console asking it to help me finish my thesis.”</em></p>
+</blockquote>
+<p>It was 2015, a Political Science master’s student had to process data to hand in his thesis and decided to take the opportunity to learn how to use R. To the long and winding road of the academic requirement was added an extra degree of difficulty: incorporating programming software from scratch, with a somewhat steep learning curve.</p>
+<p>Years later, <a href="https://github.com/TuQmano/evoteSALTA_UTDT">as I review scripts from the thesis code</a>, I smile to see long lines of code to recode variables with a structure like this:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#PARTY LABELS A GOBERNADOR</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># 0 VOTOS EN BLANCO</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1 WAYAR GOBERNADOR  (WALTER WAYAR)</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># 2 COALICION CIVICA (ARI) (ALBERTO ROLANDO TONDA)</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># 3 FRENTE JUSTICIALISTA RENOVADOR DE LA VICOTRIA (JUAN MANUEL URTUBEY)</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># 4 FRENTE OLMEDO GOBERNADOR  (ALFREDO OLMEDO)</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># 5 MORELLO GOBERNADOR / PROYECTO SUR  (CARLOS FERNANDO MORELLO)</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># 6 PARTIDO OBRERO (CLAUDIO DEL PLA)</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># 7 UNION CIVICA RADICAL  (DIEGO MARINO)</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># 8 MIJD (CARLOS ARIEL FERNANDEZ)</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co">#RECODE TODOS LOS PARTY LABELS SEGUN ADHESIONES A LISTAS CON CANDIDATOS A GOBERNADOR</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>SALTA<span class="sc">$</span>ListaF[ SALTA<span class="sc">$</span>Lista <span class="sc">==</span> <span class="st">"VOTOS EN BLANCO"</span> <span class="sc">&amp;</span> SALTA<span class="sc">$</span>Year <span class="sc">==</span> <span class="dv">2011</span>] <span class="ot">&lt;-</span><span class="dv">9999</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>SALTA<span class="sc">$</span>ListaF[ SALTA<span class="sc">$</span>Lista <span class="sc">==</span> <span class="st">"AGRUPACION CRECIMIENTO SOLIDARIO"</span> <span class="sc">&amp;</span> SALTA<span class="sc">$</span>Year <span class="sc">==</span> <span class="dv">2011</span>] <span class="ot">&lt;-</span><span class="dv">3</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>SALTA<span class="sc">$</span>ListaF[ SALTA<span class="sc">$</span>Lista <span class="sc">==</span> <span class="st">"AGRUPACION DEMOCRATICA COMUNAL"</span> <span class="sc">&amp;</span> SALTA<span class="sc">$</span>Year <span class="sc">==</span> <span class="dv">2011</span>] <span class="ot">&lt;-</span><span class="dv">3</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>SALTA<span class="sc">$</span>ListaF[ SALTA<span class="sc">$</span>Lista <span class="sc">==</span> <span class="st">"AGRUPACION DEMOCRATICA TARTAGAL (ADETA)"</span> <span class="sc">&amp;</span> SALTA<span class="sc">$</span>Year <span class="sc">==</span> <span class="dv">2011</span>] <span class="ot">&lt;-</span><span class="dv">3</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>SALTA<span class="sc">$</span>ListaF[ SALTA<span class="sc">$</span>Lista <span class="sc">==</span> <span class="st">"AGRUPACION FEDERALISTA POPULAR MOSCONI"</span> <span class="sc">&amp;</span> SALTA<span class="sc">$</span>Year <span class="sc">==</span> <span class="dv">2011</span>] <span class="ot">&lt;-</span><span class="dv">1</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>SALTA<span class="sc">$</span>ListaF[ SALTA<span class="sc">$</span>Lista <span class="sc">==</span> <span class="st">"AGRUPACION FEDERALISTA POPULAR TARTAGAL"</span> <span class="sc">&amp;</span> SALTA<span class="sc">$</span>Year <span class="sc">==</span> <span class="dv">2011</span>] <span class="ot">&lt;-</span><span class="dv">3</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Looking at it in perspective (like my scripts) I can say that learning R was the <strong>best decision I made in my professional career.</strong></p>
+<p>R Since then it has become a fundamental tool in my daily life: As <a href="https://tuqmano.github.io/geo_utdt/">academic</a> in my work as a <a href="https://twitter.com/menta_arg">consultant and analyst</a>; in my role <a href="https://ropensci.org/es/blog/2022/11/23/r-universe-stars-1-es/">as a public servant</a>; in my spare time, <a href="https://twitter.com/TuQmano/status/1426882408574595072">as a hobby</a>; and in my current role, coordinating the Data team at <a href="https://fund.ar/">Fundar</a>, a think tank that studies and formulates public policies for the sustainable and inclusive development of Argentina.</p>
+<p>Of all the qualities that R has, the <strong>community</strong> was the determining factor in my journey with this programming language.</p>
+<p>While I was finishing the first step of the thesis, I found out about the organization of the first <a href="https://latin-r.com/">Latin American Conference on R for R&amp;D (LatinR)</a> to which I owe my second (and third… and umpteenth) step in my relationship with R. In the first conference I presented use cases for political analyses from R, implementing <a href="https://www.researchgate.net/publication/327382101_Geofaceting_Argentina_LatinR_2018">grids from Argentina to use with ggplot as if they were maps with geofacet</a>. In the second conference, we presented the <em>Shiny App</em> <a href="http://inteligenciaelectoral.mentacomunicacion.com.ar/">Electoral Intelligence</a> for the analysis of electoral results in Argentina and I was able to participate in the <em>Package Development</em> workshop with <a href="https://hadley.nz/">Hadley Wickham</a>. This was the ideal starting point to get started with the idea of packaging code myself.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../img/posts/hex_joint.png" class="img-fluid figure-img"></p>
+<figcaption>geofacetAr hex at the left and de polAr one at the right</figcaption>
+</figure>
+</div>
+<section id="the-birth-of-polar" class="level2">
+<h2 class="anchored" data-anchor-id="the-birth-of-polar">The birth of polAr</h2>
+<p>With the aim of presenting at the third LatinR conference, I developed a polished version of <a href="https://electorarg.github.io/geofaceteAR/">geofacetAR</a> with functions to work with the design of grids as if they were maps of Argentina.</p>
+<p>The Covid19 pandemic hit. Learning how to develop packages, in times of confinement and many hours in front of the computer, turned the electoral data processing work of my life as a political scientist and consultant into a new package: <a href="https://github.com/electorArg/polAr">polAr</a>; that on May 16, 2020 <a href="https://twitter.com/CRANberriesFeed/status/1261597845808975872">traveled to CRAN</a>.</p>
+</section>
+<section id="the-polar-universe" class="level2">
+<h2 class="anchored" data-anchor-id="the-polar-universe">The polAr Universe</h2>
+<p>Although originally the package sought to facilitate access and tools for the analysis of electoral data in Argentina, over time, other workflows and data sources (geographic, presidential speeches, and legislative votes) were integrated, with an increase in dependencies and difficulty in managing more and more functions. This was a problematic issue that <a href="https://www.youtube.com/watch?v=UYvSv8StDa8&amp;t=10872s">was discussed with colleagues in the Package Development panel during the third LatinR confernce (2020)</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.youtube.com/watch?v=UYvSv8StDa8&amp;t=10872s"><img src="../../img/posts/latinr-rpkg.png" class="img-fluid figure-img" alt="LatinR Confernce (2022) - Package Development Ronund Table"></a></p>
+<figcaption>LatinR Confernce (2022) - Package Development Ronund Table</figcaption>
+</figure>
+</div>
+<p>polAr had reached 4000 downloads when I received an email from the CRAN team informing me that I had to fix a policy violation to prevent the package from being archived. DUnfortunately my submitted fix did not appear to correct the problem and the package was archived.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://github.com/politicaargentina/polarverse"><img src="../../img/posts/polarverse.png" class="img-fluid figure-img" alt="The polarverse"></a></p>
+<figcaption>The polarverse</figcaption>
+</figure>
+</div>
+<p>If the conversation at LatinR made me think about splitting polAr into multiple packages as a possibility, the CRAN archiving gave me the opportunity to do so. The decision was to generate independent workflows; a strategy that made it possible to move forward at different paces, making specific decisions for each topic, trying to address it at the same time as part of a whole, emulating the <em>Tidyverse</em> paradigm: a similar philosophy and grammar of operation for the <a href="https://tuqmano.ar/2021/06/05/de-polar-al-polarverse/">collection of packages</a>. The goal was to improve the development of that which led to the archiving of polAr.</p>
+<p>I presented “<a href="https://github.com/TuQmano/latinr2021/blob/master/divide_reinaras/divide_reinaras.pdf">Divide and Conquer: from {polAr} to the polarverse</a> at the fourth edition of LatinR, showcasing this new universe with five packages:</p>
+<ol type="1">
+<li><p>📦 <a href="https://politicaargentina.r-universe.dev/opinAr">opinAr</a>: provides access to data on public opinion and government in Argentina based on the Confidence in Government Index published monthly by the Universidad Torcuato Di Tella.</p></li>
+<li><p>📦 <a href="https://politicaargentina.r-universe.dev/electorAr">electorAr</a>: facilitates access to electoral data for Argentina (for different levels and with different spatial aggregation) and functions to compute relevant indicators.</p></li>
+<li><p>📦 <a href="https://politicaargentina.r-universe.dev/legislAr">legislAr</a>: facilitates downloading disaggregated information of votes in the legislative chambers of Argentina, originating from the project <a href="https://andytow.com/scripts/disciplina/index-d.html">Decade Voted</a> project by Andy Tow.</p></li>
+<li><p>📦 <a href="https://politicaargentina.r-universe.dev/discursAr">discursAr</a>: is designed to obtain data on political speeches. In principle, it provides access to presidential speeches in legislative assemblies at the inauguration of ordinary sessions.</p></li>
+<li><p>📦 <a href="https://politicaargentina.r-universe.dev/geoAr">geoAr</a>: allows access to data and tools for spatial workflows from within R. One <a href="https://github.com/TuQmano/latinr2023/blob/main/geoAr/geoAr.pdf">paper</a> on the package was accepted for the <a href="https://latin-r.com/">sixth edition of LatinR conference (2023)</a>.</p></li>
+</ol>
+<p>In addition, we worked on an auxiliary library called <a href="https://politicaargentina.r-universe.dev/polArViz">polarViz</a> to facilitate the visualization of the other packages, and a metapackage called <a href="https://politicaargentina.r-universe.dev/polArverse">polArverse</a>that emulates the operation of tidyverse for loading the set of associated libraries.</p>
+</section>
+<section id="meeting-of-universes-the-polarverse-and-r-universe" class="level2">
+<h2 class="anchored" data-anchor-id="meeting-of-universes-the-polarverse-and-r-universe">🌠 Meeting of universes: <a href="https://politicaargentina.r-universe.dev/builds">the <em>polArverse</em> and <em>R-Universe</em></a></h2>
+<p>During this process, I incorporated the R-Universe into the workflow. It provides an autonomous and self-managed space in which to publish these new packages (no longer simply as GitHub repositories) and provides support for testing on different operating systems and software versions. Undoubtedly, it is an important tool for better maintenance.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../img/posts/politicaargentina-r-universe.png" class="img-fluid figure-img"></p>
+<figcaption>polAr R-Universe</figcaption>
+</figure>
+</div>
+<section id="we-continue-to-take-important-steps-for-our-universe" class="level3">
+<h3 class="anchored" data-anchor-id="we-continue-to-take-important-steps-for-our-universe">We continue to take important steps for our universe:</h3>
+<p>First, we returned to CRAN! In February 2023, we shipped geoAr, which, as noted, provides access to and facilitates the processing of spatially relevant data. A version under development (accessible from the R-Universe) also allows you to interact with the <a href="https://georef-ar-api.readthedocs.io/es/latest/">API of the Argentine Geographic Data Standardization Service (Servicio de Normalización de Datos Geográficos de Argentina</a>.</p>
+<p>On the other hand, I added a pending tool to the polAr toolbox to work with census data: <a href="https://github.com/PoliticaArgentina/censAr">censAr</a>. The package, currently under development, is based on the code from <a href="https://docs.ropensci.org/censo2017/">censo2017</a> developed by <a href="https://ropensci.org/author/pach%C3%A1-aka-mauricio-vargas-sep%C3%BAlveda/">Mauricio “Pacha” Vargas</a> and part of the rOpenSci suite.</p>
+</section>
+</section>
+<section id="summarizinig-my-experience" class="level2">
+<h2 class="anchored" data-anchor-id="summarizinig-my-experience">Summarizinig my experience</h2>
+<ul>
+<li><p>I started working with this language - or dialect, <a href="https://tuqmano.github.io/CienciaDeDatosCiPol/clases/clase1.html#12">as one of my colleagues likes to say</a> regarding the antecedent of S from <em>Bell</em> in the 1970s - a little by chance.</p></li>
+<li><p>I quickly incorporated it as a work tool, in multiple facets: as an analyst, consultant and teacher.</p></li>
+<li><p>The R community - in particular all my experiences with <em>LatinR</em>- were a determining factor for my development. It certainly made the process much easier.</p></li>
+<li><p>I think it is possible to make improvements to the process; to support CRAN becoming an even better space for the R ecosystem and to make the R development experience more enjoyable and predictable.</p></li>
+<li><p>The <em>R-Universe</em> project to enhance the publishing and discovery experience of packages developed in R is invaluable.</p></li>
+</ul>
+<p>The <em>polarverse</em> was a side project where I worked in my free time and without funding. It emerged almost playfully, as an experiment to learn how to develop software. We successfully published it in CRAN. We got frustrated and angry. We learned. We added new tools.</p>
+<p>Now, with the support and encouragement provided by the great team at <a href="https://fund.ar/">Fundar</a>, in general, and the <a href="https://fund.ar/area/datos/">data</a> area that I coordinate, in particular. We kept moving forward. Little by little. “Slowly, but steady”.</p>
 
 
-<div id="listing-posts" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1722556800000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1339">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2024-08-02-divide-and-conquer-from-polar-to-polarverse.html" class="no-external">Divide and Conquer: From polar To the Polarverse</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2024-08-02-divide-and-conquer-from-polar-to-polarverse.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2024-08-02-divide-and-conquer-from-polar-to-polarverse.html" class="no-external">
-<div class="listing-date">
-Aug 2, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="2024" data-listing-date-sort="1722470400000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2024-08-01-register.html" class="no-external">Registration</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2024-08-01-register.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2024-08-01-register.html" class="no-external">
-<div class="listing-date">
-Aug 1, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="2024" data-listing-date-sort="1720483200000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="676">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2024-07-09-call-for-papers-2024.html" class="no-external">Call for papers</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2024-07-09-call-for-papers-2024.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2024-07-09-call-for-papers-2024.html" class="no-external">
-<div class="listing-date">
-Jul 9, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1692316800000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="167">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2023-08-18-scholarships-2023.html" class="no-external">Scholarships</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2023-08-18-scholarships-2023.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2023-08-18-scholarships-2023.html" class="no-external">
-<div class="listing-date">
-Aug 18, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1686182400000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2023-06-08-inscriptionen.html" class="no-external">Registration</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2023-06-08-inscriptionen.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2023-06-08-inscriptionen.html" class="no-external">
-<div class="listing-date">
-Jun 8, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1686182400000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="319">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2023-06-08-keynotesen-2023.html" class="no-external">Keynote speakers</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2023-06-08-keynotesen-2023.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2023-06-08-keynotesen-2023.html" class="no-external">
-<div class="listing-date">
-Jun 8, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1682294400000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="596">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2023-04-24-submissions-2023.html" class="no-external">Call for Papers</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2023-04-24-submissions-2023.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2023-04-24-submissions-2023.html" class="no-external">
-<div class="listing-date">
-Apr 24, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1603670400000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2020-10-26-reprohack-en.html" class="no-external">ReproHack in LatinR 2020</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2020-10-26-reprohack-en.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2020-10-26-reprohack-en.html" class="no-external">
-<div class="listing-date">
-Oct 26, 2020
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1594166400000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1202">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2020-07-08-communities.html" class="no-external">Latin American communities and organizations: useR!2020 video</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2020-07-08-communities.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2020-07-08-communities.html" class="no-external">
-<div class="listing-date">
-Jul 8, 2020
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1589414400000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2020-05-14-virtual-en.html" class="no-external">LatinR 2020 will be a virtual event!</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2020-05-14-virtual-en.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2020-05-14-virtual-en.html" class="no-external">
-<div class="listing-date">
-May 14, 2020
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1583193600000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="704">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2020-03-03-latinr-package.html" class="no-external">The latinr package lets you create and submit presentations to LatinR</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2020-03-03-latinr-package.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2020-03-03-latinr-package.html" class="no-external">
-<div class="listing-date">
-Mar 3, 2020
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="11" data-listing-date-sort="1582934400000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="848">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2020-02-29-birds-of-a-feather.html" class="no-external">Birds of a feather, drawn together</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2020-02-29-birds-of-a-feather.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2020-02-29-birds-of-a-feather.html" class="no-external">
-<div class="listing-date">
-Feb 29, 2020
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="12" data-listing-date-sort="1582848000000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2020-02-28-other-confs.html" class="no-external">R Conferences in Latin America during 2020</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2020-02-28-other-confs.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2020-02-28-other-confs.html" class="no-external">
-<div class="listing-date">
-Feb 28, 2020
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="13" data-listing-date-sort="1576454400000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="742">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2019-12-16-call-for-papers.html" class="no-external">Call for Papers</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2019-12-16-call-for-papers.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2019-12-16-call-for-papers.html" class="no-external">
-<div class="listing-date">
-Dec 16, 2019
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="14" data-listing-date-sort="1532649600000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="272">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2018-07-27-coc-slack.html" class="no-external">LatinR Slack - Code of Conduct</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2018-07-27-coc-slack.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2018-07-27-coc-slack.html" class="no-external">
-<div class="listing-date">
-Jul 27, 2018
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="15" data-listing-date-sort="1515974400000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="331">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2018-01-15-coc.html" class="no-external">Code of Conduct</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2018-01-15-coc.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2018-01-15-coc.html" class="no-external">
-<div class="listing-date">
-Jan 15, 2018
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="16" data-listing-date-sort="1515628800000" data-listing-file-modified-sort="1723550610562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2018-01-18-attibutions.html" class="no-external">Attributions</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../blog/en/2018-01-18-attibutions.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2018-01-18-attibutions.html" class="no-external">
-<div class="listing-date">
-Jan 11, 2018
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -618,12 +409,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copiada");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copiada");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
