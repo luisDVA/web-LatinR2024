@@ -55,7 +55,7 @@ Los idiomas oficiales de la conferencia son español, portugués e inglés. **El
 <br>
 
 <div class="boxBorder">
-Puedes enviar tu trabajo unsando este [link](https://openreview.net/group?id=LATIN-R.com/2024/Conference).
+Puedes enviar tu trabajo usando este [link](https://openreview.net/group?id=LATIN-R.com/2024/Conference).
 Ten en cuenta que es necesario haberse registrado en la plataforma para poder enviar tu trabajo. El proceso de crear una cuenta en OpenReview puede tomar varios días si es que utilizas un correo personal y no institucional. **Te sugerimos no dejar la creación de la cuenta para el último minuto**.
 </div>
 
@@ -139,7 +139,7 @@ En breve compartiremos los detalles para quienes quieran proponer talleres onlin
 
 **Inicio recepción de trabajos**: 15 de julio, 2024
 
-**Fecha límite para la recepción de propuestas**: 12 de agosto, 2024
+**Fecha límite para la recepción de propuestas**: 26 de agosto, 2024
 
 **Notificación resultados evaluación**: 30 de septiembre, 2024
 
