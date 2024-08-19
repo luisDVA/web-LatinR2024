@@ -36,17 +36,9 @@ source(here::here("R/functions-team.R"))
 team <- get_info_team()
 chairs <- team |> 
   dplyr::filter(category == "chairs")
+
 organizers <- team |> 
   dplyr::filter(category == "organizacion")
-
-chairs_list <- chairs  |> 
-  dplyr::group_split(name_complete)
-
-organizers_list <- organizers |>
-  dplyr::group_split(name_complete)
-
-committe_list <- get_info_committe() |> 
-  dplyr::group_split(name_complete)
 ```
 
 ::: {.content-visible when-profile="en"}
@@ -93,11 +85,14 @@ Em 25 de outubro de 2017, Heather Turner fez um anúncio no Slack R User Group (
 :::
 
 ```{r}
-bslib::layout_column_wrap(class = "cards-display",
-  width = 1,
-  gap = "0.5cm",
-  height = 100,
-  purrr::map(chairs_list, .f = ~generate_card(.x, class_group = "card-header-chairs"))
+chairs |>
+  dplyr::select(name_complete, titles, icons) |>
+  reactable::reactable(
+    columns = list(
+      name_complete = reactable::colDef(name = "Nombre"), 
+      titles = reactable::colDef(name = "Afiliación institucional"), 
+      icons = reactable::colDef(name = "Contacto", html = TRUE)  
+  )
 )
 ```
 
@@ -114,15 +109,15 @@ bslib::layout_column_wrap(class = "cards-display",
 ### Comité Científico
 :::
 
-
+Comming soon.
 
 ```{r}
-bslib::layout_column_wrap(class = "cards-display",
-  width = 1,
-  gap = "0.5cm",
-  height = 100,
-  purrr::map(committe_list, .f = ~generate_card(.x, class_group = "card-header-comite"))
-)
+# bslib::layout_column_wrap(class = "cards-display",
+#   width = 1,
+#   gap = "0.5cm",
+#   height = 100,
+#   purrr::map(committe_list, .f = ~generate_card(.x, class_group = "card-header-comite"))
+# )
 ```
 
 
@@ -141,13 +136,17 @@ bslib::layout_column_wrap(class = "cards-display",
 :::
 
 ```{r}
-bslib::layout_column_wrap(class = "cards-display",
-  width = 1,
-  gap = "0.5cm",
-  height = 100,
-  purrr::map(organizers_list, .f = ~generate_card(.x, class_group = "card-header-team"))
+organizers |>
+  dplyr::select(name_complete, titles, icons) |>
+  reactable::reactable(
+    columns = list(
+      name_complete = reactable::colDef(name = "Nombre"), 
+      titles = reactable::colDef(name = "Afiliación institucional"), 
+      icons = reactable::colDef(name = "Contacto", html = TRUE)  
+  )
 )
 ```
+
 
 
 <!-- font awesome -->
