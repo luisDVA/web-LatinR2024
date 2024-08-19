@@ -3,7 +3,7 @@ generate_card <- function(person, class_group = "card-header-team") {
   bslib::card(
     full_screen = FALSE,
     bslib::card_header(person$name_complete[1], htmltools::HTML(person$icons[1]), class = class_group),
-    bslib::card_body(htmltools::HTML(paste0(person$titles, collapse =  "<br> ")),
+    bslib::card_body(htmltools::HTML(person$titles),
     )
   )
 }
@@ -31,20 +31,29 @@ get_info_committe <- function(){
       linkedin = linked_in
     ) |> 
     dplyr::select(-marca_temporal) |> 
+    dplyr::mutate(
+      titles = dplyr::if_else(
+        is.na(titles), "", titles
+      )
+    )
     generate_icons()
   
   sheets_comite
 }
 
+update_info_team <- function(){
+    # Run code below when we need to update
+  url_sheets_team <- "https://docs.google.com/spreadsheets/d/1gjdblLof74LgIOzxbm3WH8l7wI5IoJftdLF0os9B5EI/edit?usp=sharing"
+
+  sheets_team_raw <-
+    googlesheets4::read_sheet(url_sheets_team)
+
+  sheets_team_raw |>
+    readr::write_rds(here::here("sobre/equipo/team.rds"))
+}
+
 get_info_team <- function(){
-  # Run code below when we need to update
-  # url_sheets_team <- "https://docs.google.com/spreadsheets/d/1gjdblLof74LgIOzxbm3WH8l7wI5IoJftdLF0os9B5EI/edit?usp=sharing"
-  # 
-  # sheets_team_raw <-
-  #   googlesheets4::read_sheet(url_sheets_team)
-  # 
-  # sheets_team_raw |>
-  #   readr::write_rds(here::here("sobre/equipo/team.rds"))
+
   
   sheets_team_raw <- readr::read_rds(here::here("sobre/equipo/team.rds"))
   
@@ -69,6 +78,11 @@ get_info_team <- function(){
       category = dplyr::case_when(
        name_complete %in% c("Natalia da Silva", "Riva Quiroga", "Yanina Bellini Saibene") ~ "chairs",
         TRUE ~ "organizacion"
+      )
+    ) |> 
+    dplyr::mutate(
+      titles = dplyr::if_else(
+        is.na(titles), "", titles
       )
     )
   
