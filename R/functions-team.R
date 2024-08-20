@@ -35,7 +35,7 @@ get_info_committe <- function(){
       titles = dplyr::if_else(
         is.na(titles), "", titles
       )
-    )
+    ) |> 
     generate_icons()
   
   sheets_comite
@@ -50,6 +50,8 @@ update_info_team <- function(){
 
   sheets_team_raw |>
     readr::write_rds(here::here("sobre/equipo/team.rds"))
+  
+  sheets_team_raw
 }
 
 get_info_team <- function(){
