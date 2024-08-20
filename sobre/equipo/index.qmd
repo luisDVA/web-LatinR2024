@@ -32,8 +32,11 @@ knitr:
 
 ```{r}
 source(here::here("R/functions-team.R"))
+# update_info_team()
+# team <- get_info_team()
+# readr::write_rds(team, "prepared_team.rds")
 
-team <- get_info_team()
+team <- readr::read_rds("prepared_team.rds")
 chairs <- team |> 
   dplyr::filter(category == "chairs")
 
