@@ -106,7 +106,7 @@ fix_social_url <- function(var, url_base) {
 
 
 generate_icons <- function(tab){
-  tab |>
+  tab_with_icons <- tab |>
     dplyr::mutate(
       site = stringr::str_trim(site),
       icon_github = dplyr::case_when(
@@ -146,11 +146,13 @@ generate_icons <- function(tab){
       
       icon_orcid = dplyr::case_when(
         !is.na(orcid) ~ glue::glue(
-          '<a href="{orcid}" target="_blank"><i class="fab fa-orcid></i></a>  '
+          '<a href="{orcid}" target="_blank"><i class="fab fa-orcid"></i></a>  '
         ),
         TRUE ~ ""
       ) ,
         
       icons = glue::glue("{icon_site}{icon_orcid}{icon_github}{icon_linkedin}{icon_mastodon}{icon_twitter}")
     )
+  
+  tab_with_icons
 }
