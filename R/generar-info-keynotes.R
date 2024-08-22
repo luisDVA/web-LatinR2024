@@ -3,16 +3,16 @@ generar_info_keynotes <- function() {
     name = "Julia Silge",
     href = "https://juliasilge.com/",
     img = "img/posts/julia.jpg",
-    info_es = "Julia Silge es una científica de datos y
+    info_es = "Julia Silge es científica de datos y
     gerente de ingeniería en Posit PBC (anteriormente RStudio),
-    donde trabaja en herramientas de modelado de código abierto y MLOps.
+    donde trabaja en el desarrollo de herramientas de código abierto para modelado y MLOps.
     Es creadora de herramientas, autora,
-    oradora principal internacional y practicante en el mundo real,
-    enfocada en el análisis de datos y el aprendizaje automático.
-    A Julia le encanta el análisis de texto,
+    oradora principal en conferencias internacionales y practicante en el mundo real,
+    con particular foco en el análisis de datos y el aprendizaje automático.
+    A Julia le gusta el análisis de texto,
     hacer gráficos hermosos y comunicar temas técnicos a audiencias diversas.
-    Puedes encontrarla en línea en su [blog](https://juliasilge.com/) 
-    y [YouTube](https://www.youtube.com/juliasilge).",
+    Puedes encontrarla en línea en su blog (https://juliasilge.com/) 
+    y YouTube (https://www.youtube.com/juliasilge).",
     info_pt = "Julia Silge é uma cientista de dados e
     gerente de engenharia na Posit PBC (anteriormente RStudio),
     onde trabalha em ferramentas de modelagem de código aberto e MLOps.
@@ -37,11 +37,11 @@ generar_info_keynotes <- function() {
       name = "Will Landau",
       href = "https://wlandau.github.io/",
       img = "img/posts/will.jpg",
-      info_es = "Will Landau es un estadístico y desarrollador
-      de software en la industria en life sciences.
-      Está especializado en los aspectos computacionales de la estadística
-      bayesiana y en la investigación reproducible, además de ser el creador
-      y mantenedor de los paquetes targets y crew en R.",
+      info_es = "Will Landau es estadístico y desarrollador
+      de software para la industria de las ciencias de la vida.
+      Se especializa en los aspectos computacionales de la estadística
+      bayesiana y en investigación reproducible. Es el creador
+      y mantenedor de los paquetes de R targets y crew.",
       info_pt = "Will Landau é um estatístico e desenvolvedor de software na indústria.
       Ele é especializado nos aspectos computacionais da estatística bayesiana
       e na pesquisa reprodutível,
