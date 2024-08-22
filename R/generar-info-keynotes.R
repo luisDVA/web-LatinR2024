@@ -11,8 +11,8 @@ generar_info_keynotes <- function() {
     enfocada en el análisis de datos y el aprendizaje automático.
     A Julia le encanta el análisis de texto,
     hacer gráficos hermosos y comunicar temas técnicos a audiencias diversas.
-    Puedes encontrarla en línea en su blog (https://juliasilge.com/) 
-    y YouTube (https://www.youtube.com/juliasilge).",
+    Puedes encontrarla en línea en su [blog](https://juliasilge.com/) 
+    y [YouTube](https://www.youtube.com/juliasilge).",
     info_pt = "Julia Silge é uma cientista de dados e
     gerente de engenharia na Posit PBC (anteriormente RStudio),
     onde trabalha em ferramentas de modelagem de código aberto e MLOps.
@@ -21,8 +21,8 @@ generar_info_keynotes <- function() {
     focando em análise de dados e aprendizado de máquina.
     Julia adora análise de texto, criar gráficos bonitos e
     comunicar tópicos técnicos para públicos diversos.
-    Você pode encontrá-la online em seu blog (https://juliasilge.com/) 
-    e canal do YouTube (https://www.youtube.com/juliasilge).",
+    Você pode encontrá-la online em seu [blog](https://juliasilge.com/) 
+    e [canal do YouTube](https://www.youtube.com/juliasilge).",
     info_en = "Julia Silge is a data scientist and
     engineering manager at Posit PBC (formerly RStudio),
     where she works on open source modeling and MLOps tools.
@@ -30,8 +30,8 @@ generar_info_keynotes <- function() {
     and a real-world practitioner focusing on data analysis and machine learning.
     Julia loves text analysis, making beautiful charts,
     and communicating about technical topics with diverse audiences.
-    You can find her online at her blog (https://juliasilge.com/) 
-    e canal do YouTube (https://www.youtube.com/juliasilge)."
+    You can find her online at her [blog](https://juliasilge.com/) 
+    e [canal do YouTube](https://www.youtube.com/juliasilge)."
   ) |> 
     tibble::add_row(
       name = "Will Landau",
@@ -64,7 +64,7 @@ generar_card_keynote <- function(tab, col_info = "info_es"){
       href = tab$href,
       border_radius = "all"
     ),
-    bslib::card_body(tab[[col_info]], ),
+    bslib::card_body(shiny::markdown(tab[[col_info]]), ),
   )
 }
 
