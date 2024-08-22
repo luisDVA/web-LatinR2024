@@ -56,9 +56,8 @@ update_info_team <- function(){
 
 get_info_team <- function(){
 
-  
   sheets_team_raw <- readr::read_rds(here::here("sobre/equipo/team.rds"))
-  
+
   sheets_team <- sheets_team_raw |> 
     janitor::clean_names() |> 
     dplyr::rename(
@@ -85,7 +84,8 @@ get_info_team <- function(){
     dplyr::mutate(
       titles = dplyr::if_else(
         is.na(titles), "", titles
-      )
+      ),
+      titles = stringr::str_replace_all(titles, "\n|\\n", " | ")
     )
   
   sheets_team_icons <- sheets_team |> 
