@@ -9,7 +9,7 @@ website:
   navbar:
     pinned: false
     logo: "img/logo.png"
-    logo-alt: "Latin-R logo"
+    logo-alt: "LatinR logo"
     title: false
     background: "#ffffff"
     foreground: "#737373"
