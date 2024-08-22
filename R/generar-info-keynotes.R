@@ -1,7 +1,7 @@
 generar_info_keynotes <- function() {
   tibble::tibble(
     name = "Julia Silge",
-    href = "https://juliasilge.coms/",
+    href = "https://juliasilge.com/",
     img = "img/posts/julia.jpg",
     info_es = "Julia Silge es una científica de datos y
     gerente de ingeniería en Posit PBC (anteriormente RStudio),
