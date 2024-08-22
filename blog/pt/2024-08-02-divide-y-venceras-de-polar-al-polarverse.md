@@ -80,7 +80,7 @@ Apresentamos "[Divida e Vencerá: de {polAr} ao polarverse](https://github.com/T
 
 4.  📦 [discursAr](https://politicaargentina.r-universe.dev/discursAr): projetado para obter dados relacionados a discursos políticos. Inicialmente, fornecendo acesso a discursos presidenciais em assembleias legislativas de inauguração de sessões ordinárias.
 
-5.  📦 [geoAr](https://politicaargentina.r-universe.dev/geoAr): permite acessar dados e ferramentas para fluxos de trabalho espaciais a partir do R. Uma [apresentação](https://github.com/TuQmano/latinr2023/blob/main/geoAr/geoAr.pdf) sobre o pacote foi aceita para a [sexta conferência do LatinR](https://latin-r.com/).
+5.  📦 [geoAr](https://politicaargentina.r-universe.dev/geoAr): permite acessar dados e ferramentas para fluxos de trabalho espaciais a partir do R. Uma [apresentação](https://github.com/TuQmano/latinr2023/blob/main/geoAr/geoAr.pdf) sobre o pacote foi aceita para a [sexta conferência do LatinR](https://latinr.org/).
 
 Adicionalmente, trabalhamos em uma biblioteca auxiliar chamada [polarViz](https://politicaargentina.r-universe.dev/polArViz), para facilitar a tarefa de visualização dos outros pacotes, e um metapacote [polArverse](https://politicaargentina.r-universe.dev/polArverse), que emula o funcionamento do tidyverse, para o carregamento do conjunto de bibliotecas associadas.
 

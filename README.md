@@ -1,6 +1,6 @@
 ## LatinR Website - Version 2
 
-Made with Quarto and R, by the Latin-R organizing team.
+Made with Quarto and R, by the LatinR organizing team.
 
 
 
