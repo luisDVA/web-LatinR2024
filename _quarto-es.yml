@@ -44,8 +44,8 @@ website:
           #   href: cronograma/programa/preliminar.qmd 
           # - text: "Calendario"
           #   href: cronograma/programa/index.qmd            
-          # - text: "Conferencistas"
-          #   href: cronograma/conferencistas/index.qmd    
+          - text: "Conferencistas"
+            href: cronograma/conferencistas/index.qmd
           - text: "Tutoriales"
             href: cronograma/tutoriales/index.qmd
           # - text: "Presentaciones"

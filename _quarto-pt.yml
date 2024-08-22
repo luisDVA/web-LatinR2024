@@ -44,8 +44,8 @@ website:
           #   href: cronograma/programa/preliminar.qmd 
           # - text: "Calendário"
           #   href: cronograma/programa/index.qmd            
-          # - text: "Palestras convidadas"
-          #   href: cronograma/conferencistas/palestras-convidadas.qmd    
+          - text: "Palestras convidadas"
+            href: cronograma/conferencistas/palestras-convidadas.qmd
           - text: "Workshops"
             href: cronograma/tutoriales/workshops-pt.qmd
           # - text: "Apresentações"

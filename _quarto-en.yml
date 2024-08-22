@@ -44,8 +44,8 @@ website:
           #   href: cronograma/programa/preliminar.qmd 
           # - text: "Calendar"
           #   href: cronograma/programa/index.qmd
-          # - text: "Keynote Speakers"
-          #   href: cronograma/conferencistas/keynotes.qmd    
+          - text: "Keynote Speakers"
+            href: cronograma/conferencistas/keynotes.qmd
           - text: "Workshops"
             href: cronograma/tutoriales/workshops.qmd
           # - text: "Regular Talks"
