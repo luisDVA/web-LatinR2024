@@ -23,14 +23,13 @@ knitr:
 }
 ```
 
-Nesta sexta edição presencial, contaremos com a presença de quatro palestrantes proeminentes no campo da programação com R, com experiência tanto na academia quanto na indústria, comprometidos com a colaboração e a promoção da ciência, dados e software abertos. 
+Nesta sétima edição, contaremos com a presença de palestrantes proeminentes no campo da programação com R, com experiência tanto na academia quanto na indústria, comprometidos com a colaboração e a promoção da ciência, dados e software abertos. 
 
 ```{r}
 #| results: asis
-# source(here::here("R/generar-info-keynotes.R"))
-# info_keynotes <- generar_info_keynotes()
-# 
-# generar_cards_keynotes(info_keynotes = info_keynotes, col_information = "info_pt")
+source(here::here("R/generar-info-keynotes.R"))
+info_keynotes <- generar_info_keynotes()
+generar_cards_keynotes(info_keynotes = info_keynotes, col_information = "info_pt")
 
 ```
 

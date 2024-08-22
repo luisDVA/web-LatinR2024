@@ -23,14 +23,14 @@ knitr:
 }
 ```
 
-En esta sexta edición de la conferencia contaremos con la presencia de cuatro oradores que son referentes en el área de programación con R, con experiencia tanto en el ámbito académico como en la industria y en organizaciones de la sociedad civil. Se destacan por su compromiso con la colaboración y la promoción de ciencia, datos y sofware abiertos. 
+En esta séptima edición de la conferencia contaremos con la presencia de oradores que son referentes en el área de programación con R, con experiencia tanto en el ámbito académico como en la industria y en organizaciones de la sociedad civil. Se destacan por su compromiso con la colaboración y la promoción de ciencia, datos y sofware abiertos. 
 
 ```{r}
 #| results: asis
-# source(here::here("R/generar-info-keynotes.R"))
-# info_keynotes <- generar_info_keynotes()
-# 
-# generar_cards_keynotes(info_keynotes = info_keynotes, col_information = "info_es")
+source(here::here("R/generar-info-keynotes.R"))
+info_keynotes <- generar_info_keynotes()
+
+generar_cards_keynotes(info_keynotes = info_keynotes, col_information = "info_es")
 
 ```
 
