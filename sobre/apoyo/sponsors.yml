@@ -19,6 +19,9 @@
     - name: rOpenSci (Community partner)
       href: https://ropensci.org/
       thumbnail: ../../img/partners/ropensci.png
+    - name: Cynkra
+      href: https://www.cynkra.com/
+      thumbnail: ../../img/partners/cynkra.svg
     # - name: Agencia Nacional de Investigación e Innovación
     #   href: https://www.anii.org.uy/
     #   thumbnail: ../../img/partners/proyecto-anii.jpg
