@@ -10,9 +10,9 @@
     # - name: Universidad de la República Uruguay
     #   href: https://udelar.edu.uy/portal/
     #   thumbnail: ../../img/partners/udelar.png
-    # - name: Appsilon
-    #   href: https://appsilon.com/
-    #   thumbnail: ../../img/partners/Appsilon.svg     
+    - name: Appsilon
+      href: https://appsilon.com/
+      thumbnail: ../../img/partners/Appsilon.svg     
     # - name: Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático 
     #   href: https://cicada.uy/
     #   thumbnail: ../../img/partners/cicada.png
