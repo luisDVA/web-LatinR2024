@@ -114,7 +114,7 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 ```{r}
 #| results: asis
 #| echo: false
-#| eval: false
+#| eval: true
 source(here::here("R/generar-info-keynotes.R"))
 info_keynotes <- generar_info_keynotes()
 
@@ -154,7 +154,7 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 ```{r}
 #| results: asis
 #| echo: false
-#| eval: false
+#| eval: true
 source(here::here("R/generar-info-keynotes.R"))
 info_keynotes <- generar_info_keynotes()
 
