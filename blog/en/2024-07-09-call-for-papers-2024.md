@@ -93,7 +93,7 @@ Details for those who wish to propose online workshops for this edition of Latin
 
 **Deadline for proposal submission**: August 26, 2024
 
-**Notification of evaluation results**: September 30, 2024
+**Notification of evaluation results**: ~~September 30, 2024~~ October 8, 2024
 
 **Deadline for submission of accepted work videos**: October 28, 2024
 

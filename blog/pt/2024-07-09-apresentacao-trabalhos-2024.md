@@ -94,7 +94,7 @@ Em breve compartilharemos os detalhes para quem quiser propor workshops online p
 
 **Data limite para envio de propostas**: 26 de agosto de 2024
 
-**Notificação dos resultados da avaliação**: 30 de setembro de 2024
+**Notificação dos resultados da avaliação**: ~~30 de setembro de 2024~~ 8 de outobro de 2024
 
 **Data máxima de envio dos vídeos dos trabalhos aceitos**: 28 de outubro de 2024
 

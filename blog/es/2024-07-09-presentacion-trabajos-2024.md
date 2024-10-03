@@ -141,7 +141,7 @@ En breve compartiremos los detalles para quienes quieran proponer talleres onlin
 
 **Fecha límite para la recepción de propuestas**: 26 de agosto, 2024
 
-**Notificación resultados evaluación**: 30 de septiembre, 2024
+**Notificación resultados evaluación**: ~~30 de septiembre, 2024~~ 8 de octubre, 2024
 
 **Fecha de recepcion de videos de trabajos aceptados**: 28 de octubre, 2024
 
