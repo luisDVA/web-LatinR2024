@@ -44,17 +44,14 @@ generar_info_sponsors <- function() {
 generar_lista_sponsors <- function(info_sponsors, lang = "es") {
     html_output <- ""
 
-
     unique_types <- unique(info_sponsors$type)
 
     unique_types <- factor(unique_types, levels = c("sponsor", "supporter", "community"), ordered = TRUE)
-
     unique_types <- unique_types[order(unique_types)]
 
     for (sponsor_type in unique_types) {
         title <- get_title_by_language(sponsor_type, lang)
         html_output <- paste0(html_output, "<h2>", title, "</h2><div class='sponsorsFooter'><ul>")
-
 
         sponsors_of_type <- info_sponsors[info_sponsors$type == sponsor_type, ]
 
@@ -62,10 +59,9 @@ generar_lista_sponsors <- function(info_sponsors, lang = "es") {
             html_output <- paste0(
                 html_output,
                 "<li><a href='", sponsors_of_type$href[i],
-                "' target='_blank' class='sblogos__link'><img class='sblogos__img' src='",
-                sponsors_of_type$img[i],
-                "' alt='", sponsors_of_type$name[i],
-                " logo' /></a></li>"
+                "' target='_blank' class='sblogos__link'><img class='sblogos__img ",
+                sponsor_type, "' src='", sponsors_of_type$img[i],
+                "' alt='", sponsors_of_type$name[i], " logo' /></a></li>"
             )
         }
 
