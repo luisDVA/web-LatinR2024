@@ -11,10 +11,10 @@ generate_card <- function(person, class_group = "card-header-team") {
 get_info_committe <- function(){
   # Run code below when we need to update
   # url_sheets_comite <- "https://docs.google.com/spreadsheets/d/1gKo5WEZoxpqoE4NVrHUjcuZfs2y9gMHG-bt318NqREE/edit?gid=171919892#gid=171919892"
-  # 
+  
   # sheets_comite_raw <-
-  #   googlesheets4::read_sheet(url_sheets_comite, "comite_cientifico")
-  # 
+  #   googlesheets4::read_sheet(url_sheets_comite, "Respuestas de formulario 1")
+  
   # sheets_comite_raw |>
   #   readr::write_rds(here::here("sobre/equipo/comite.rds"))
   
