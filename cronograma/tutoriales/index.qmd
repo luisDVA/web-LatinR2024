@@ -19,6 +19,7 @@ knitr:
 
 **Inscripción**: [https://www.eventbrite.com.ar/e/1045617188157](https://www.eventbrite.com.ar/e/1045617188157)
 
+**Idioma:** Español
 
 Este taller está diseñado para introducir a investigadoras/es a GitHub, una potente plataforma para el control de versiones y la colaboración. Los participantes aprenderán los fundamentos del uso de GitHub para gestionar sus proyectos de investigación, incluyendo cómo crear y gestionar repositorios, realizar un seguimiento de los cambios y colaborar con otras personas.
 Los objetivos específicos de aprendizaje incluyen:
@@ -58,6 +59,8 @@ Los participantes deben disponer de un ordenador/portátil con acceso a Internet
 
 **Inscripción**: [https://www.eventbrite.com.ar/e/1045614801017](https://www.eventbrite.com.ar/e/1045614801017)
 
+**Idioma:** Español
+
 El análisis de datos satelitales en R, combinado con técnicas de Machine Learning, abre nuevas oportunidades para interpretar y aprovechar la información geoespacial.
 En este tutorial se abordarán aplicaciones prácticas utilizando R para procesar y analizar imágenes satelitales. Se demostrará cómo aprovechar librerías especializadas en R, como raster, sf y caret, para manipular datos espaciales y construir modelos predictivos. El uso de Machine Learning permitirá identificar patrones en grandes conjuntos de datos satelitales, aplicando algoritmos como árboles de decisión, SVM y Random Forest.
 Se destacarán ejemplos reales en campos como la agricultura de precisión, monitoreo ambiental y detección de cambios en la superficie terrestre. La presentación enfatizará la importancia de integrar datos satelitales en la toma de decisiones y cómo estas técnicas permiten un análisis más eficiente y preciso de nuestro entorno desde el espacio.
@@ -83,6 +86,8 @@ Mi especializo en modelos de series de tiempo y de clasificación en Machine Lea
 **Modalidad**: Online
 
 **Inscripción**: [https://www.eventbrite.com.ar/e/1044938257457](https://www.eventbrite.com.ar/e/1044938257457)
+
+**Idioma:** Inglés
 
 Mientras que los conjuntos de datos son cada vez mayores, los recientes avances en tecnologías como Apache Arrow y DuckDB están poniendo al alcance de cualquiera el análisis de conjuntos de datos que antes requerían una infraestructura compleja.
 
@@ -123,6 +128,8 @@ Los participantes ya deben estar familiarizados con la manipulación de datos co
 
 **Inscripción**:  [https://www.eventbrite.com.ar/e/1045608201277](https://www.eventbrite.com.ar/e/1045608201277)
 
+**Idioma:** Español
+
 Crear visualizaciones claras, informativas y cautivantes es una labor indiscutida dentro del análisis de datos, tanto dentro de la academia como de la industria. Sin embargo, la amplia mayoría de los tutoriales o de los cursos iniciales de R suelen explicar solamente cómo funciona la gramática de gráficos de ggplot2, sin abarcar la potencialidad de los parámetros estéticos que ayudan a comunicar de forma no verbal el objetivo del gráfico. En este taller vamos a mostrar cómo editar el texto y los colores, tanto de forma específica como a partir del uso de paletas, y cómo adaptar el gráfico a criterios específicos de publicación.
 
 #### Objetivo general de aprendizaje:
@@ -159,6 +166,8 @@ Deberán tener una computadora con R y R Studio instalados y actualizados. Tambi
 **Modalidad**: Online
 
 **Inscripción**: [https://www.eventbrite.com.ar/e/1045601130127](https://www.eventbrite.com.ar/e/1045601130127)
+
+**Idioma:** Portugués
 
 El tutorial cubrirá la teoría básica de la modelización de nichos ecológicos (ENM) y la modelización de la distribución de especies (SDM) y sus principales metodologías. Al final del curso, predominantemente práctico, los participantes tendrán la capacidad de ejecutar los modelos y comprender sus resultados, así como de elegir y aplicar la metodología correcta en función del objetivo de su tipo de estudio y de los datos. La tutoría será principalmente práctica, con algunos momentos teóricos. Todos los procesos de modelización, cálculos, gráficos y mapas se llevarán a cabo con R. Los participantes aprenderán a utilizar el algoritmo de modelización Maxent, a través del paquete {flexsdm} para desarrollar los modelos y se utilizará el paquete {tmap} para generar mapas.
 

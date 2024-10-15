@@ -18,6 +18,8 @@ knitr:
 **Mode**: Online
 **Enrollment**: [https://www.eventbrite.com.ar/e/1045617188157](https://www.eventbrite.com.ar/e/1045617188157)
 
+**Language:** Spanish
+
 This workshop is designed to introduce researchers to GitHub, a powerful platform for version control and collaboration. Participants will learn the basics of using GitHub to manage their research projects, including how to create and manage repositories, track changes, and collaborate with others.
 Specific learning objectives include:
   - Understand the basic concepts of version control and how they apply to research workflows.
@@ -50,6 +52,8 @@ Participants must have a computer/laptop with Internet access and sufficient sto
 
 **Enrollment**: [https://www.eventbrite.com.ar/e/1045614801017](https://www.eventbrite.com.ar/e/1045614801017)
 
+**Language:** Spanish
+
 Satellite data analysis in R, combined with Machine Learning techniques, opens new opportunities to interpret and leverage geospatial information.
 This tutorial will address practical applications using R to process and analyze satellite imagery. It will demonstrate how to take advantage of specialized libraries in R, such as raster, sf and caret, to manipulate spatial data and build predictive models. The use of Machine Learning will allow the identification of patterns in large satellite data sets, applying algorithms such as decision trees, SVM and Random Forest.
 Real examples in fields such as precision agriculture, environmental monitoring and land surface change detection will be highlighted. The presentation will emphasize the importance of integrating satellite data in decision making and how these techniques allow a more efficient and accurate analysis of our environment from space.
@@ -76,6 +80,8 @@ I specialize in time series and classification models in Machine Learning. In ad
 **Mode**: Online
 
 **Enrollment**: [https://www.eventbrite.com.ar/e/1044938257457](https://www.eventbrite.com.ar/e/1044938257457)
+
+**Language:** English
 
 While datasets are growing larger, recent advances in technologies such as Apache Arrow and DuckDB are making the analysis of datasets that used to require complex infrastructure accessible to anyone.
 
@@ -112,6 +118,8 @@ Participants should already be familiar with data manipulation with the {tidyver
 **Mode**: Online
 
 **Enrollment**: [https://www.eventbrite.com.ar/e/1045608201277](https://www.eventbrite.com.ar/e/1045608201277)
+
+**Language:** Spanish
 
 Creating clear, informative and captivating visualizations is an undisputed endeavor within data analytics, both within academia and industry. However, the vast majority of tutorials or initial R courses tend to only explain how the ggplot2 graph grammar works, without covering the potential of the aesthetic parameters that help to nonverbally communicate the graph's objective. In this workshop we will show how to edit text and colors, both specifically and from the use of palettes, and how to adapt the chart to specific publication criteria.
 
@@ -150,6 +158,8 @@ You should have a computer with R and R Studio installed and up to date. They sh
 **Modality**: Online
 
 **Enrollment**: [https://www.eventbrite.com.ar/e/1045601130127](https://www.eventbrite.com.ar/e/1045601130127)
+
+**Language:** English
 
 The tutorial will cover the basic theory of ecological niche modeling (ENM) and species distribution potential (SDM) and their main methodologies. By the end of the predominantly practical course, participants will have the ability to run the models and understand their results, as well as choose and apply the correct methodology depending on the purpose of their type of study and data. The tutorial will be mainly practical, with some theoretical moments. All modeling processes, calculations, graphs and maps will be carried out with R. Participants will learn to use Maxent modeling algorithm, through the {flexsdm} package to develop the models and the {tmap} package will be used to generate maps.
 

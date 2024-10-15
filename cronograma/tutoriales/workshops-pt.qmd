@@ -19,6 +19,8 @@ knitr:
 
 **Inscrição**: [https://www.eventbrite.com.ar/e/1045617188157](https://www.eventbrite.com.ar/e/1045617188157)
 
+**Idioma:** Espanhol
+
 
 Este workshop foi concebido para apresentar aos investigadores o GitHub, uma plataforma poderosa para controlo de versões e colaboração. Os participantes aprenderão os conceitos básicos do uso do GitHub para gerenciar seus projetos de pesquisa, incluindo como criar e gerenciar repositórios, rastrear alterações e colaborar com outras pessoas.
 Os objectivos específicos de aprendizagem incluem:
@@ -56,7 +58,9 @@ Os participantes devem ter um computador/laptop com acesso à Internet e armazen
 
 **Modo**: Online
 
-**Inscrição**: [https://www.eventbrite.com.ar/e/1045614801017](https://www.eventbrite.com.ar/e/1045614801017)
+**Inscrição**: [https://www.eventbrite.com.ar/e/1045614801017](https://www.eventbrite.com.ar/e/1045614801**017)
+
+**Idioma:** Espanhol
 
 A análise de dados de satélite em R, combinada com técnicas de Machine Learning, abre novas oportunidades para interpretar e explorar informações geoespaciais.
 Este tutorial abordará aplicações práticas utilizando R para processar e analisar imagens de satélite. Demonstrará como tirar partido de bibliotecas especializadas em R, tais como raster, sf e caret, para manipular dados espaciais e construir modelos preditivos. A utilização da aprendizagem automática permitirá a identificação de padrões em grandes conjuntos de dados de satélite, aplicando algoritmos como árvores de decisão, SVM e Random Forest.
@@ -83,6 +87,8 @@ Sou especialista em séries temporais e modelos de classificação em Machine Le
 **Modalidade**: Online
 
 **Inscrição**: [https://www.eventbrite.com.ar/e/1044938257457](https://www.eventbrite.com.ar/e/1044938257457)
+
+**Idiomas**: inglês
 
 Enquanto os conjuntos de dados estão a aumentar, os recentes avanços em tecnologias como o Apache Arrow e o DuckDB estão a tornar acessível a qualquer pessoa a análise de conjuntos de dados que costumavam exigir infra-estruturas complexas.
 
@@ -120,6 +126,8 @@ Os participantes já devem estar familiarizados com a manipulação de dados com
 
 **Inscrição**: [https://www.eventbrite.com.ar/e/1045608201277](https://www.eventbrite.com.ar/e/1045608201277)
 
+**Idioma**: Espanhol
+
 Criar visualizações claras, informativas e envolventes é uma tarefa indiscutível dentro da análise de dados, tanto no meio académico como na indústria. No entanto, a grande maioria dos tutoriais ou cursos iniciais de R tendem a explicar apenas como funciona a gramática gráfica do ggplot2, sem cobrir o potencial dos parâmetros estéticos que ajudam a comunicar não verbalmente o objetivo do gráfico. Neste workshop vamos mostrar como editar texto e cores, tanto especificamente como usando paletas, e como adaptar o gráfico a critérios específicos de publicação.
 
 #### Objetivo geral de aprendizagem:
@@ -156,6 +164,8 @@ Deve ter um computador com o R e o R Studio instalados e actualizados. Também s
 **Modo**: Online
 
 **Inscrição**:  [https://www.eventbrite.com.ar/e/1045601130127](https://www.eventbrite.com.ar/e/1045601130127)
+
+**Idioma**: Portuguese
 
 O tutorial cobrirá a teoria básica da modelagem de nicho ecológico (ENM) e distribuição potencial de espécies (SDM) e suas principais metodologias. Ao final do curso, predominantemente prático, os participantes terão a capacidade de executar os modelos e entender seus resultados, bem como escolher e aplicar a metodologia correta dependendo do objetivo do seu tipo de estudo e dados. O tutorial será principalmente prático, com alguns momentos teóricos. Todos os processos de modelagem, cálculos, gráficos e mapas serão realizados com R. Os participantes aprenderão a usar algoritmo de modelagem Maxent, através do pacote {flexsdm} para desenvolvimento dos modelos e será utilizado o pacote {tmap} para geração de mapas.
 
