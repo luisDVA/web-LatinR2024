@@ -24,7 +24,7 @@ sheets_team_raw |>
 usethis::ui_info("Updating scientific committee....")
 
 url_sheets_comite <-
-  "https://docs.google.com/spreadsheets/d/1XrOVbMh1twUpBCih7JgsSa2lg_1dhU-hNL-4IjhhcCA/"
+  "https://docs.google.com/spreadsheets/d/1gKo5WEZoxpqoE4NVrHUjcuZfs2y9gMHG-bt318NqREE/edit?usp=sharing"
 
 sheets_comite_raw <-
   googlesheets4::read_sheet(url_sheets_comite, "Respuestas de formulario 1")
