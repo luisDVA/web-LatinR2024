@@ -22,7 +22,7 @@ knitr:
 R Dev Day \@ LatinR 2024 es un evento colaborativo donde las personas trabajarán en pequeños grupos para hacer contribuciones a R base, o a la infraestructura que soporta dicha contribución. Ejemplos de posibles contribuciones:
 
 -   Traducir mensajes de error cadenasal español/portugués de Brasil
--   Proponer mejoras en la documentación de R
+-   Proponer mejoras en la documentación de R (contenido que accedemos en `help` o `?` en R)
 -   Analizar un error en R
 -   Generar una solución a un error en R
 -   Añadir contenido a la [Guía de Desarrollo de R](https://contributor.r-project.org/rdevguide/)
