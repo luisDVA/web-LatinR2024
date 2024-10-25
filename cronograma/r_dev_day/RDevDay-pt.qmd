@@ -22,7 +22,7 @@ editor:
 
 # Sobre
 
-O R Dev Day \@ LatinR 2024 é um evento colaborativo no qual os participantes trabalharão em pequenos grupos para contribuir para o R básico ou para a infraestrutura que dá suporte a essas contribuições, por exemplo
+O R Dev Day \@ LatinR 2024 é um evento colaborativo no qual as pessoas participantes trabalharão em pequenos grupos para contribuir para o R base ou para a infraestrutura que dá suporte a essas contribuições, por exemplo:
 
 -   Traduzir textos de mensagens para espanhol/português brasileiro
 -   Propor melhorias nos arquivos de ajuda do R
