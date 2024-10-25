@@ -37,7 +37,7 @@ Tanto pessoas colaboradoras novas quanto experientes estão convidadas a partici
 
 Haverá duas sessões na segunda-feira, 18 de novembro, e na terça-feira, 19 de novembro. No mesmo horário todos os dias:
 
-| UTC           | Buenos Aires (UTC-3) | Hermosillo (UTC-7) |
+| UTC           | Buenos Aires e Brasília (UTC-3) | Hermosillo (UTC-7) |
 |:--------------|:---------------------|:-------------------|
 | 8:30pm - 11pm | 5:30pm - 8pm         | 1:30pm - 4pm       |
 

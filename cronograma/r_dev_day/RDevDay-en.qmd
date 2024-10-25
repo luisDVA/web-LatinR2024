@@ -37,7 +37,7 @@ Both new and experienced contributors are encouraged to attend!
 
 There will be two sessions on Monday 18 November and Tuesday 19 November at the same time each day:
 
-| UTC           | Buenos Aires (UTC-3) | Hermosillo (UTC-7) |
+| UTC           | Buenos Aires and Brasília (UTC-3) | Hermosillo (UTC-7) |
 |:--------------|:---------------------|:-------------------|
 | 8:30pm - 11pm | 5:30pm - 8pm         | 1:30pm - 4pm       |
 

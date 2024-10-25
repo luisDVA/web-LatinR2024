@@ -34,7 +34,7 @@ Invitamos a participar a personas con distintos niveles de conocimiento, desde p
 
 Las sesiones se realizarán el lunes 18 y martes 19 de noviembre, a la misma hora cada día.
 
-| UTC           | Buenos Aires (UTC-3) | Hermosillo (UTC-7) |
+| UTC           | Buenos Aires y Brasília (UTC-3) | Hermosillo (UTC-7) |
 |:--------------|:---------------------|:-------------------|
 | 8:30pm - 11pm | 5:30pm - 8pm         | 1:30pm - 4pm       |
 
