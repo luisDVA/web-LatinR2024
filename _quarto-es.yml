@@ -48,6 +48,8 @@ website:
             href: cronograma/conferencistas/index.qmd
           - text: "Tutoriales"
             href: cronograma/tutoriales/index.qmd
+          - text: "R Dev Day"
+            href: cronograma/r-dev-day/index.qmd                
           # - text: "Presentaciones"
           #   href: cronograma/programa/presentaciones.qmd 
           # - text: "Posters"

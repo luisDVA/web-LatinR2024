@@ -48,6 +48,8 @@ website:
             href: cronograma/conferencistas/palestras-convidadas.qmd
           - text: "Workshops"
             href: cronograma/tutoriales/workshops-pt.qmd
+          - text: "R Dev Day"
+            href: cronograma/r-dev-day/rdevday-pt.qmd            
           # - text: "Apresentações"
           #   href: cronograma/programa/presentaciones.qmd 
           # - text: "Pôsters"
