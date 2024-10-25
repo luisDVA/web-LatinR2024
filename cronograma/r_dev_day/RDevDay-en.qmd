@@ -25,11 +25,11 @@ editor:
 R Dev Day \@ LatinR 2024 is a collaborative event where participants will work in small groups on contributions to base R, or to infrastructure that supports such contribution, e.g.,
 
 -   Translating message strings to Spanish/Brazilian Portuguese
--   Proposing improvements to R help files
+-   Proposing improvements to the R help files (that are accessed via `help` or `?` in R)
 -   Analysing a reported bug in R
 -   Developing a fix to a reported bug in R
--   Adding content to the [R Dev Guide](https://contributor.r-project.org/rdevguide/)
--   Improving the [R Translations Dashboard](https://contributor.r-project.org/translations-dashboard/)
+-   Adding content to the [R Dev Guide](https://contributor.r-project.org/rdevguide/), the guide for contributors to base R
+-   Improving the [R Translations Dashboard](https://contributor.r-project.org/translations-dashboard/), the dashboard used to monitor the status of translations
 
 Both new and experienced contributors are encouraged to attend!
 
