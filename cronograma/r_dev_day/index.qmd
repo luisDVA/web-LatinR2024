@@ -26,7 +26,7 @@ R Dev Day \@ LatinR 2024 es un evento colaborativo donde las personas trabajará
 -   Analizar un error en R
 -   Generar una solución a un error en R
 -   Añadir contenido a la [Guía de Desarrollo de R](https://contributor.r-project.org/rdevguide/)
--   Mejorar el [Tablero de traducciones de R](https://contributor.r-project.org/translations-dashboard/)
+-   Mejorar el [Tablero de traducciones de R](https://contributor.r-project.org/translations-dashboard/), el panel utilizado para monitorear el estado de las traducciones
 
 Invitamos a participar a personas con distintos niveles de conocimiento, desde principiantes hasta expertos.
 
